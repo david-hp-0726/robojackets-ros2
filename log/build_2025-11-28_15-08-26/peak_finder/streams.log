@@ -1,0 +1,27 @@
+[0.043s] Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/peak_finder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/training_ws/src/robojackets-ros2/build/peak_finder -- -j16 -l16
+[0.106s] [35m[1mConsolidate compiler generated dependencies of target peak_finder_components[0m
+[0.106s] [35m[1mConsolidate compiler generated dependencies of target peak_finder_node[0m
+[0.124s] [ 40%] Built target peak_finder_node
+[0.127s] [100%] Built target peak_finder_components
+[0.190s] Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/peak_finder' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/training_ws/src/robojackets-ros2/build/peak_finder -- -j16 -l16
+[0.191s] Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/peak_finder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/training_ws/src/robojackets-ros2/build/peak_finder
+[0.212s] -- Install configuration: ""
+[0.212s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/peak_finder/lib/peak_finder/peak_finder_node
+[0.212s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/peak_finder/lib/libpeak_finder_components.so
+[0.212s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/ament_index/resource_index/package_run_dependencies/peak_finder
+[0.212s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/ament_index/resource_index/parent_prefix_path/peak_finder
+[0.212s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/environment/ament_prefix_path.sh
+[0.212s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/environment/ament_prefix_path.dsv
+[0.212s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/environment/path.sh
+[0.212s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/environment/path.dsv
+[0.212s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/local_setup.bash
+[0.212s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/local_setup.sh
+[0.212s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/local_setup.zsh
+[0.212s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/local_setup.dsv
+[0.213s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/package.dsv
+[0.213s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/ament_index/resource_index/packages/peak_finder
+[0.213s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/ament_index/resource_index/rclcpp_components/peak_finder
+[0.213s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/cmake/peak_finderConfig.cmake
+[0.213s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/cmake/peak_finderConfig-version.cmake
+[0.213s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/package.xml
+[0.286s] Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/peak_finder' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/training_ws/src/robojackets-ros2/build/peak_finder

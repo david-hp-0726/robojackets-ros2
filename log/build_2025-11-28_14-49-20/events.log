@@ -1,0 +1,246 @@
+[0.000000] (-) TimerEvent: {}
+[0.001544] (-) JobUnselected: {'identifier': 'astar_path_planner'}
+[0.001576] (-) JobUnselected: {'identifier': 'controllers'}
+[0.001604] (-) JobUnselected: {'identifier': 'coordinate_transform'}
+[0.001615] (-) JobUnselected: {'identifier': 'mapping'}
+[0.001622] (-) JobUnselected: {'identifier': 'mineral_deposit_tracking'}
+[0.001648] (-) JobUnselected: {'identifier': 'obstacle_detector'}
+[0.001660] (-) JobUnselected: {'identifier': 'peak_finder'}
+[0.001667] (-) JobUnselected: {'identifier': 'rj_training_bringup'}
+[0.001696] (localization) JobQueued: {'identifier': 'localization', 'dependencies': OrderedDict()}
+[0.001756] (localization) JobStarted: {'identifier': 'localization'}
+[0.022440] (localization) JobProgress: {'identifier': 'localization', 'progress': 'cmake'}
+[0.025722] (localization) Command: {'cmd': ['/usr/bin/cmake', '/home/david/training_ws/src/robojackets-ros2/localization', '-DCMAKE_INSTALL_PREFIX=/home/david/training_ws/src/robojackets-ros2/install/localization'], 'cwd': '/home/david/training_ws/src/robojackets-ros2/build/localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/david'), ('USER', 'david'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/david/training_ws/install/stsl_utils/lib:/home/david/training_ws/install/stsl_rviz_plugins/lib:/home/david/training_ws/install/stsl_nav_plugins/lib:/home/david/training_ws/install/mission_orchestration/lib:/home/david/training_ws/install/stsl_bt_nodes/lib:/home/david/training_ws/install/stsl_aruco_tags/lib:/home/david/training_ws/install/peak_finder/lib:/home/david/training_ws/install/mineral_deposit_tracking/lib:/home/david/training_ws/install/mineral_deposit_detection/lib:/home/david/training_ws/install/localization/lib:/home/david/training_ws/install/elevation_server/lib:/home/david/training_ws/install/coordinate_transform/lib:/home/david/training_ws/install/stsl_interfaces/lib:/home/david/training_ws/install/stsl_gazebo_plugins/lib:/home/david/training_ws/install/obstacle_detector/lib:/home/david/training_ws/install/mapping/lib:/home/david/training_ws/install/controllers/lib:/home/david/training_ws/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/david'), ('OLDPWD', '/home/david'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/david/training_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'david'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c4'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/david/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/mnt/c/Users/dchen/AppData/Local/Programs/Microsoft VS Code/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/david/training_ws/install/stsl_desktop:/home/david/training_ws/install/traini_bringup:/home/david/training_ws/install/traini_gazebo:/home/david/training_ws/install/traini_description:/home/david/training_ws/install/stsl_utils:/home/david/training_ws/install/stsl_rviz_plugins:/home/david/training_ws/install/stsl_nav_plugins:/home/david/training_ws/install/mission_orchestration:/home/david/training_ws/install/stsl_bt_nodes:/home/david/training_ws/install/stsl_aruco_tags:/home/david/training_ws/install/peak_finder:/home/david/training_ws/install/mineral_deposit_tracking:/home/david/training_ws/install/mineral_deposit_detection:/home/david/training_ws/install/localization:/home/david/training_ws/install/elevation_server:/home/david/training_ws/install/coordinate_transform:/home/david/training_ws/install/stsl_interfaces:/home/david/training_ws/install/stsl_gazebo_plugins:/home/david/training_ws/install/rj_training_bringup:/home/david/training_ws/install/obstacle_detector:/home/david/training_ws/install/mapping:/home/david/training_ws/install/controllers:/home/david/training_ws/install/astar_path_planner:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/david/training_ws/src/robojackets-ros2/build/localization'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/david/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/david/training_ws/install/stsl_desktop:/home/david/training_ws/install/traini_bringup:/home/david/training_ws/install/traini_gazebo:/home/david/training_ws/install/traini_description:/home/david/training_ws/install/stsl_utils:/home/david/training_ws/install/stsl_rviz_plugins:/home/david/training_ws/install/stsl_nav_plugins:/home/david/training_ws/install/mission_orchestration:/home/david/training_ws/install/stsl_bt_nodes:/home/david/training_ws/install/stsl_aruco_tags:/home/david/training_ws/install/peak_finder:/home/david/training_ws/install/mineral_deposit_tracking:/home/david/training_ws/install/mineral_deposit_detection:/home/david/training_ws/install/localization:/home/david/training_ws/install/elevation_server:/home/david/training_ws/install/coordinate_transform:/home/david/training_ws/install/stsl_interfaces:/home/david/training_ws/install/stsl_gazebo_plugins:/home/david/training_ws/install/rj_training_bringup:/home/david/training_ws/install/obstacle_detector:/home/david/training_ws/install/mapping:/home/david/training_ws/install/controllers:/home/david/training_ws/install/astar_path_planner:/opt/ros/humble')]), 'shell': False}
+[0.100352] (-) TimerEvent: {}
+[0.201105] (-) TimerEvent: {}
+[0.306173] (-) TimerEvent: {}
+[0.336008] (localization) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.406706] (-) TimerEvent: {}
+[0.457335] (localization) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.479476] (localization) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.507406] (-) TimerEvent: {}
+[0.609223] (-) TimerEvent: {}
+[0.619200] (localization) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.636256] (localization) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.638070] (localization) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.639696] (localization) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.647244] (localization) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.712642] (-) TimerEvent: {}
+[0.788942] (localization) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.793291] (localization) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.793983] (localization) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.794283] (localization) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.813045] (-) TimerEvent: {}
+[0.860897] (localization) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.913522] (-) TimerEvent: {}
+[1.014747] (-) TimerEvent: {}
+[1.115832] (-) TimerEvent: {}
+[1.194704] (localization) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.216236] (-) TimerEvent: {}
+[1.316965] (-) TimerEvent: {}
+[1.417715] (-) TimerEvent: {}
+[1.444011] (localization) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.518242] (-) TimerEvent: {}
+[1.595365] (localization) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.604051] (localization) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.616026] (localization) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.618427] (-) TimerEvent: {}
+[1.648124] (localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.670466] (localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.720950] (-) TimerEvent: {}
+[1.752126] (localization) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.756764] (localization) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.824254] (-) TimerEvent: {}
+[1.910042] (localization) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.924383] (-) TimerEvent: {}
+[1.961375] (localization) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.025220] (-) TimerEvent: {}
+[2.042883] (localization) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.061084] (localization) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.126034] (-) TimerEvent: {}
+[2.207353] (localization) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.208419] (localization) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.226319] (-) TimerEvent: {}
+[2.327085] (-) TimerEvent: {}
+[2.377097] (localization) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.378330] (localization) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.429173] (-) TimerEvent: {}
+[2.461014] (localization) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.14 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[2.501537] (localization) StdoutLine: {'line': b'-- Found stsl_interfaces: 0.1.0 (/home/david/training_ws/install/stsl_interfaces/share/stsl_interfaces/cmake)\n'}
+[2.530235] (-) TimerEvent: {}
+[2.589298] (localization) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.615070] (localization) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[2.630844] (-) TimerEvent: {}
+[2.642062] (localization) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.668566] (localization) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.731472] (localization) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[2.731762] (-) TimerEvent: {}
+[2.761524] (localization) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.763343] (localization) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.763667] (localization) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.769267] (localization) StdoutLine: {'line': b'-- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)\n'}
+[2.782754] (localization) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.834356] (-) TimerEvent: {}
+[2.933114] (localization) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.934520] (-) TimerEvent: {}
+[2.935321] (localization) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.935600] (localization) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.935717] (localization) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.937464] (localization) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.937588] (localization) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.939557] (localization) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.940588] (localization) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.941529] (localization) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.943301] (localization) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.943466] (localization) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.945273] (localization) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.948429] (localization) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.978369] (localization) StdoutLine: {'line': b'-- Generating done\n'}
+[2.983535] (localization) StdoutLine: {'line': b'-- Build files have been written to: /home/david/training_ws/src/robojackets-ros2/build/localization\n'}
+[2.996940] (localization) CommandEnded: {'returncode': 0}
+[2.999068] (localization) JobProgress: {'identifier': 'localization', 'progress': 'build'}
+[3.000657] (localization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/david/training_ws/src/robojackets-ros2/build/localization', '--', '-j16', '-l16'], 'cwd': '/home/david/training_ws/src/robojackets-ros2/build/localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/david'), ('USER', 'david'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/david/training_ws/install/stsl_utils/lib:/home/david/training_ws/install/stsl_rviz_plugins/lib:/home/david/training_ws/install/stsl_nav_plugins/lib:/home/david/training_ws/install/mission_orchestration/lib:/home/david/training_ws/install/stsl_bt_nodes/lib:/home/david/training_ws/install/stsl_aruco_tags/lib:/home/david/training_ws/install/peak_finder/lib:/home/david/training_ws/install/mineral_deposit_tracking/lib:/home/david/training_ws/install/mineral_deposit_detection/lib:/home/david/training_ws/install/localization/lib:/home/david/training_ws/install/elevation_server/lib:/home/david/training_ws/install/coordinate_transform/lib:/home/david/training_ws/install/stsl_interfaces/lib:/home/david/training_ws/install/stsl_gazebo_plugins/lib:/home/david/training_ws/install/obstacle_detector/lib:/home/david/training_ws/install/mapping/lib:/home/david/training_ws/install/controllers/lib:/home/david/training_ws/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/david'), ('OLDPWD', '/home/david'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/david/training_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'david'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c4'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/david/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/mnt/c/Users/dchen/AppData/Local/Programs/Microsoft VS Code/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/david/training_ws/install/stsl_desktop:/home/david/training_ws/install/traini_bringup:/home/david/training_ws/install/traini_gazebo:/home/david/training_ws/install/traini_description:/home/david/training_ws/install/stsl_utils:/home/david/training_ws/install/stsl_rviz_plugins:/home/david/training_ws/install/stsl_nav_plugins:/home/david/training_ws/install/mission_orchestration:/home/david/training_ws/install/stsl_bt_nodes:/home/david/training_ws/install/stsl_aruco_tags:/home/david/training_ws/install/peak_finder:/home/david/training_ws/install/mineral_deposit_tracking:/home/david/training_ws/install/mineral_deposit_detection:/home/david/training_ws/install/localization:/home/david/training_ws/install/elevation_server:/home/david/training_ws/install/coordinate_transform:/home/david/training_ws/install/stsl_interfaces:/home/david/training_ws/install/stsl_gazebo_plugins:/home/david/training_ws/install/rj_training_bringup:/home/david/training_ws/install/obstacle_detector:/home/david/training_ws/install/mapping:/home/david/training_ws/install/controllers:/home/david/training_ws/install/astar_path_planner:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/david/training_ws/src/robojackets-ros2/build/localization'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/david/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/david/training_ws/install/stsl_desktop:/home/david/training_ws/install/traini_bringup:/home/david/training_ws/install/traini_gazebo:/home/david/training_ws/install/traini_description:/home/david/training_ws/install/stsl_utils:/home/david/training_ws/install/stsl_rviz_plugins:/home/david/training_ws/install/stsl_nav_plugins:/home/david/training_ws/install/mission_orchestration:/home/david/training_ws/install/stsl_bt_nodes:/home/david/training_ws/install/stsl_aruco_tags:/home/david/training_ws/install/peak_finder:/home/david/training_ws/install/mineral_deposit_tracking:/home/david/training_ws/install/mineral_deposit_detection:/home/david/training_ws/install/localization:/home/david/training_ws/install/elevation_server:/home/david/training_ws/install/coordinate_transform:/home/david/training_ws/install/stsl_interfaces:/home/david/training_ws/install/stsl_gazebo_plugins:/home/david/training_ws/install/rj_training_bringup:/home/david/training_ws/install/obstacle_detector:/home/david/training_ws/install/mapping:/home/david/training_ws/install/controllers:/home/david/training_ws/install/astar_path_planner:/opt/ros/humble')]), 'shell': False}
+[3.036350] (-) TimerEvent: {}
+[3.099886] (localization) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/localization_node.dir/rclcpp_components/node_main_localization_node.cpp.o\x1b[0m\n'}
+[3.103644] (localization) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/localization_component.dir/src/particle_filter_localizer.cpp.o\x1b[0m\n'}
+[3.104187] (localization) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/localization_component.dir/src/random_helpers.cpp.o\x1b[0m\n'}
+[3.104276] (localization) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/localization_component.dir/src/aruco_sensor_model.cpp.o\x1b[0m\n'}
+[3.104309] (localization) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/localization_component.dir/src/odometry_sensor_model.cpp.o\x1b[0m\n'}
+[3.105495] (localization) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/localization_component.dir/src/motion_model.cpp.o\x1b[0m\n'}
+[3.136638] (-) TimerEvent: {}
+[3.241391] (-) TimerEvent: {}
+[3.343503] (-) TimerEvent: {}
+[3.445610] (-) TimerEvent: {}
+[3.546349] (-) TimerEvent: {}
+[3.647907] (-) TimerEvent: {}
+[3.750104] (-) TimerEvent: {}
+[3.850824] (-) TimerEvent: {}
+[3.953006] (-) TimerEvent: {}
+[4.054784] (-) TimerEvent: {}
+[4.156448] (-) TimerEvent: {}
+[4.258912] (-) TimerEvent: {}
+[4.361003] (-) TimerEvent: {}
+[4.462993] (-) TimerEvent: {}
+[4.564500] (-) TimerEvent: {}
+[4.666676] (-) TimerEvent: {}
+[4.768273] (-) TimerEvent: {}
+[4.870295] (-) TimerEvent: {}
+[4.972479] (-) TimerEvent: {}
+[5.074314] (-) TimerEvent: {}
+[5.175230] (-) TimerEvent: {}
+[5.276993] (-) TimerEvent: {}
+[5.378824] (-) TimerEvent: {}
+[5.479853] (-) TimerEvent: {}
+[5.581162] (-) TimerEvent: {}
+[5.682544] (-) TimerEvent: {}
+[5.783189] (-) TimerEvent: {}
+[5.884468] (-) TimerEvent: {}
+[5.884906] (localization) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable localization_node\x1b[0m\n'}
+[5.986089] (-) TimerEvent: {}
+[6.032659] (localization) StdoutLine: {'line': b'[ 87%] Built target localization_node\n'}
+[6.087759] (-) TimerEvent: {}
+[6.189166] (-) TimerEvent: {}
+[6.290645] (-) TimerEvent: {}
+[6.392450] (-) TimerEvent: {}
+[6.494309] (-) TimerEvent: {}
+[6.595325] (-) TimerEvent: {}
+[6.697554] (-) TimerEvent: {}
+[6.799641] (-) TimerEvent: {}
+[6.900644] (-) TimerEvent: {}
+[7.002910] (-) TimerEvent: {}
+[7.105203] (-) TimerEvent: {}
+[7.206259] (-) TimerEvent: {}
+[7.308540] (-) TimerEvent: {}
+[7.410703] (-) TimerEvent: {}
+[7.511537] (-) TimerEvent: {}
+[7.612259] (-) TimerEvent: {}
+[7.714600] (-) TimerEvent: {}
+[7.816526] (-) TimerEvent: {}
+[7.918174] (-) TimerEvent: {}
+[8.019701] (-) TimerEvent: {}
+[8.120834] (-) TimerEvent: {}
+[8.222361] (-) TimerEvent: {}
+[8.323726] (-) TimerEvent: {}
+[8.425945] (-) TimerEvent: {}
+[8.526681] (-) TimerEvent: {}
+[8.628251] (-) TimerEvent: {}
+[8.729858] (-) TimerEvent: {}
+[8.831790] (-) TimerEvent: {}
+[8.934003] (-) TimerEvent: {}
+[9.036216] (-) TimerEvent: {}
+[9.137140] (-) TimerEvent: {}
+[9.238290] (-) TimerEvent: {}
+[9.339147] (-) TimerEvent: {}
+[9.441274] (-) TimerEvent: {}
+[9.543176] (-) TimerEvent: {}
+[9.644075] (-) TimerEvent: {}
+[9.747793] (-) TimerEvent: {}
+[9.850072] (-) TimerEvent: {}
+[9.952379] (-) TimerEvent: {}
+[10.054271] (-) TimerEvent: {}
+[10.155127] (-) TimerEvent: {}
+[10.258667] (-) TimerEvent: {}
+[10.363442] (-) TimerEvent: {}
+[10.468916] (-) TimerEvent: {}
+[10.574321] (-) TimerEvent: {}
+[10.677833] (-) TimerEvent: {}
+[10.783326] (-) TimerEvent: {}
+[10.888814] (-) TimerEvent: {}
+[10.994193] (-) TimerEvent: {}
+[11.099700] (-) TimerEvent: {}
+[11.204355] (-) TimerEvent: {}
+[11.306889] (-) TimerEvent: {}
+[11.411454] (-) TimerEvent: {}
+[11.516721] (-) TimerEvent: {}
+[11.622062] (-) TimerEvent: {}
+[11.727421] (-) TimerEvent: {}
+[11.833165] (-) TimerEvent: {}
+[11.938609] (-) TimerEvent: {}
+[12.043925] (-) TimerEvent: {}
+[12.051590] (localization) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library liblocalization_component.so\x1b[0m\n'}
+[12.148529] (-) TimerEvent: {}
+[12.253922] (-) TimerEvent: {}
+[12.359099] (-) TimerEvent: {}
+[12.464407] (-) TimerEvent: {}
+[12.566531] (-) TimerEvent: {}
+[12.669643] (-) TimerEvent: {}
+[12.775075] (-) TimerEvent: {}
+[12.880681] (-) TimerEvent: {}
+[12.986138] (-) TimerEvent: {}
+[13.091803] (-) TimerEvent: {}
+[13.197127] (-) TimerEvent: {}
+[13.302125] (-) TimerEvent: {}
+[13.403422] (localization) StdoutLine: {'line': b'[100%] Built target localization_component\n'}
+[13.403730] (-) TimerEvent: {}
+[13.418353] (localization) CommandEnded: {'returncode': 0}
+[13.419495] (localization) JobProgress: {'identifier': 'localization', 'progress': 'install'}
+[13.432932] (localization) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/david/training_ws/src/robojackets-ros2/build/localization'], 'cwd': '/home/david/training_ws/src/robojackets-ros2/build/localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/david'), ('USER', 'david'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/david/training_ws/install/stsl_utils/lib:/home/david/training_ws/install/stsl_rviz_plugins/lib:/home/david/training_ws/install/stsl_nav_plugins/lib:/home/david/training_ws/install/mission_orchestration/lib:/home/david/training_ws/install/stsl_bt_nodes/lib:/home/david/training_ws/install/stsl_aruco_tags/lib:/home/david/training_ws/install/peak_finder/lib:/home/david/training_ws/install/mineral_deposit_tracking/lib:/home/david/training_ws/install/mineral_deposit_detection/lib:/home/david/training_ws/install/localization/lib:/home/david/training_ws/install/elevation_server/lib:/home/david/training_ws/install/coordinate_transform/lib:/home/david/training_ws/install/stsl_interfaces/lib:/home/david/training_ws/install/stsl_gazebo_plugins/lib:/home/david/training_ws/install/obstacle_detector/lib:/home/david/training_ws/install/mapping/lib:/home/david/training_ws/install/controllers/lib:/home/david/training_ws/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/david'), ('OLDPWD', '/home/david'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/david/training_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'david'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c4'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/david/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/mnt/c/Users/dchen/AppData/Local/Programs/Microsoft VS Code/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/david/training_ws/install/stsl_desktop:/home/david/training_ws/install/traini_bringup:/home/david/training_ws/install/traini_gazebo:/home/david/training_ws/install/traini_description:/home/david/training_ws/install/stsl_utils:/home/david/training_ws/install/stsl_rviz_plugins:/home/david/training_ws/install/stsl_nav_plugins:/home/david/training_ws/install/mission_orchestration:/home/david/training_ws/install/stsl_bt_nodes:/home/david/training_ws/install/stsl_aruco_tags:/home/david/training_ws/install/peak_finder:/home/david/training_ws/install/mineral_deposit_tracking:/home/david/training_ws/install/mineral_deposit_detection:/home/david/training_ws/install/localization:/home/david/training_ws/install/elevation_server:/home/david/training_ws/install/coordinate_transform:/home/david/training_ws/install/stsl_interfaces:/home/david/training_ws/install/stsl_gazebo_plugins:/home/david/training_ws/install/rj_training_bringup:/home/david/training_ws/install/obstacle_detector:/home/david/training_ws/install/mapping:/home/david/training_ws/install/controllers:/home/david/training_ws/install/astar_path_planner:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/david/training_ws/src/robojackets-ros2/build/localization'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/david/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/david/training_ws/install/stsl_desktop:/home/david/training_ws/install/traini_bringup:/home/david/training_ws/install/traini_gazebo:/home/david/training_ws/install/traini_description:/home/david/training_ws/install/stsl_utils:/home/david/training_ws/install/stsl_rviz_plugins:/home/david/training_ws/install/stsl_nav_plugins:/home/david/training_ws/install/mission_orchestration:/home/david/training_ws/install/stsl_bt_nodes:/home/david/training_ws/install/stsl_aruco_tags:/home/david/training_ws/install/peak_finder:/home/david/training_ws/install/mineral_deposit_tracking:/home/david/training_ws/install/mineral_deposit_detection:/home/david/training_ws/install/localization:/home/david/training_ws/install/elevation_server:/home/david/training_ws/install/coordinate_transform:/home/david/training_ws/install/stsl_interfaces:/home/david/training_ws/install/stsl_gazebo_plugins:/home/david/training_ws/install/rj_training_bringup:/home/david/training_ws/install/obstacle_detector:/home/david/training_ws/install/mapping:/home/david/training_ws/install/controllers:/home/david/training_ws/install/astar_path_planner:/opt/ros/humble')]), 'shell': False}
+[13.441086] (localization) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.443122] (localization) StdoutLine: {'line': b'-- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/lib/localization/localization_node\n'}
+[13.443762] (localization) StdoutLine: {'line': b'-- Set runtime path of "/home/david/training_ws/src/robojackets-ros2/install/localization/lib/localization/localization_node" to ""\n'}
+[13.443836] (localization) StdoutLine: {'line': b'-- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/lib/liblocalization_component.so\n'}
+[13.460395] (localization) StdoutLine: {'line': b'-- Set runtime path of "/home/david/training_ws/src/robojackets-ros2/install/localization/lib/liblocalization_component.so" to ""\n'}
+[13.460596] (localization) StdoutLine: {'line': b'-- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/launch\n'}
+[13.461640] (localization) StdoutLine: {'line': b'-- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/launch/particle_filter_localizer.launch.py\n'}
+[13.462901] (localization) StdoutLine: {'line': b'-- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/config\n'}
+[13.463003] (localization) StdoutLine: {'line': b'-- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/config/localizer_params.yaml\n'}
+[13.464867] (localization) StdoutLine: {'line': b'-- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/ament_index/resource_index/package_run_dependencies/localization\n'}
+[13.465978] (localization) StdoutLine: {'line': b'-- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/ament_index/resource_index/parent_prefix_path/localization\n'}
+[13.466880] (localization) StdoutLine: {'line': b'-- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/environment/ament_prefix_path.sh\n'}
+[13.467480] (localization) StdoutLine: {'line': b'-- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/environment/ament_prefix_path.dsv\n'}
+[13.468020] (localization) StdoutLine: {'line': b'-- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/environment/path.sh\n'}
+[13.470086] (localization) StdoutLine: {'line': b'-- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/environment/path.dsv\n'}
+[13.470498] (localization) StdoutLine: {'line': b'-- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/local_setup.bash\n'}
+[13.470889] (localization) StdoutLine: {'line': b'-- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/local_setup.sh\n'}
+[13.471207] (localization) StdoutLine: {'line': b'-- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/local_setup.zsh\n'}
+[13.471304] (localization) StdoutLine: {'line': b'-- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/local_setup.dsv\n'}
+[13.471642] (localization) StdoutLine: {'line': b'-- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/package.dsv\n'}
+[13.472577] (localization) StdoutLine: {'line': b'-- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/ament_index/resource_index/packages/localization\n'}
+[13.473273] (localization) StdoutLine: {'line': b'-- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/ament_index/resource_index/rclcpp_components/localization\n'}
+[13.474416] (localization) StdoutLine: {'line': b'-- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/cmake/localizationConfig.cmake\n'}
+[13.474756] (localization) StdoutLine: {'line': b'-- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/cmake/localizationConfig-version.cmake\n'}
+[13.474887] (localization) StdoutLine: {'line': b'-- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/package.xml\n'}
+[13.479761] (localization) CommandEnded: {'returncode': 0}
+[13.505189] (-) TimerEvent: {}
+[13.529782] (localization) JobEnded: {'identifier': 'localization', 'rc': 0}
+[13.530487] (-) EventReactorShutdown: {}

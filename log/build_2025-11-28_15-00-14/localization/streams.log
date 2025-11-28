@@ -1,0 +1,33 @@
+[0.021s] Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/training_ws/src/robojackets-ros2/build/localization -- -j16 -l16
+[0.116s] [ 12%] [32mBuilding CXX object CMakeFiles/localization_component.dir/src/particle_filter_localizer.cpp.o[0m
+[13.754s] [ 25%] [32mBuilding CXX object CMakeFiles/localization_component.dir/src/odometry_sensor_model.cpp.o[0m
+[24.473s] [ 37%] [32m[1mLinking CXX shared library liblocalization_component.so[0m
+[26.208s] [ 75%] Built target localization_component
+[26.263s] [100%] Built target localization_node
+[26.284s] Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/training_ws/src/robojackets-ros2/build/localization -- -j16 -l16
+[26.306s] Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/training_ws/src/robojackets-ros2/build/localization
+[26.321s] -- Install configuration: ""
+[26.321s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/lib/localization/localization_node
+[26.322s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/lib/liblocalization_component.so
+[26.336s] -- Set runtime path of "/home/david/training_ws/src/robojackets-ros2/install/localization/lib/liblocalization_component.so" to ""
+[26.336s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/launch
+[26.337s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/launch/particle_filter_localizer.launch.py
+[26.337s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/config
+[26.337s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/config/localizer_params.yaml
+[26.337s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/ament_index/resource_index/package_run_dependencies/localization
+[26.337s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/ament_index/resource_index/parent_prefix_path/localization
+[26.337s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/environment/ament_prefix_path.sh
+[26.337s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/environment/ament_prefix_path.dsv
+[26.338s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/environment/path.sh
+[26.338s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/environment/path.dsv
+[26.338s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/local_setup.bash
+[26.338s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/local_setup.sh
+[26.338s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/local_setup.zsh
+[26.338s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/local_setup.dsv
+[26.338s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/package.dsv
+[26.338s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/ament_index/resource_index/packages/localization
+[26.338s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/ament_index/resource_index/rclcpp_components/localization
+[26.338s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/cmake/localizationConfig.cmake
+[26.338s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/cmake/localizationConfig-version.cmake
+[26.339s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/package.xml
+[26.346s] Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/training_ws/src/robojackets-ros2/build/localization

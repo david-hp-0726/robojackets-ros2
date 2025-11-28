@@ -1,0 +1,83 @@
+[0.063s] Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/mineral_deposit_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/david/training_ws/src/robojackets-ros2/mineral_deposit_tracking -DCMAKE_INSTALL_PREFIX=/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking
+[0.198s] -- The C compiler identification is GNU 11.4.0
+[0.263s] -- The CXX compiler identification is GNU 11.4.0
+[0.280s] -- Detecting C compiler ABI info
+[0.367s] -- Detecting C compiler ABI info - done
+[0.371s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.373s] -- Detecting C compile features
+[0.373s] -- Detecting C compile features - done
+[0.379s] -- Detecting CXX compiler ABI info
+[0.468s] -- Detecting CXX compiler ABI info - done
+[0.472s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.473s] -- Detecting CXX compile features
+[0.473s] -- Detecting CXX compile features - done
+[0.484s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.682s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.809s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.900s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.908s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.922s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.943s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.972s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.049s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.055s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.195s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.251s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.329s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.345s] -- Looking for pthread.h
+[1.429s] -- Looking for pthread.h - found
+[1.429s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.505s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.506s] -- Found Threads: TRUE  
+[1.582s] -- Found rclcpp_components: 16.0.14 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.617s] -- Found stsl_interfaces: 0.1.0 (/home/david/training_ws/install/stsl_interfaces/share/stsl_interfaces/cmake)
+[1.667s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.673s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.674s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.719s] -- Found tf2_eigen: 0.25.16 (/opt/ros/humble/share/tf2_eigen/cmake)
+[1.732s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.826s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.827s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.827s] -- Configured cppcheck include dirs: 
+[1.827s] -- Configured cppcheck exclude dirs and/or files: 
+[1.828s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.828s] -- Configured cpplint exclude dirs and/or files: 
+[1.828s] -- Added test 'lint_cmake' to check CMake code style
+[1.829s] -- Added test 'uncrustify' to check C / C++ code style
+[1.829s] -- Configured uncrustify additional arguments: 
+[1.830s] -- Added test 'xmllint' to check XML markup files
+[1.831s] -- Configuring done
+[1.847s] -- Generating done
+[1.854s] -- Build files have been written to: /home/david/training_ws/src/robojackets-ros2/build/mineral_deposit_tracking
+[1.868s] Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/mineral_deposit_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/david/training_ws/src/robojackets-ros2/mineral_deposit_tracking -DCMAKE_INSTALL_PREFIX=/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking
+[1.872s] Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/mineral_deposit_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/training_ws/src/robojackets-ros2/build/mineral_deposit_tracking -- -j16 -l16
+[1.940s] [ 50%] [32mBuilding CXX object CMakeFiles/mineral_deposit_tracker.dir/rclcpp_components/node_main_mineral_deposit_tracker.cpp.o[0m
+[1.940s] [ 50%] [32mBuilding CXX object CMakeFiles/mineral_deposit_tracking.dir/src/mineral_deposit_tracker.cpp.o[0m
+[7.935s] [ 75%] [32m[1mLinking CXX executable mineral_deposit_tracker[0m
+[8.130s] [ 75%] Built target mineral_deposit_tracker
+[23.697s] [100%] [32m[1mLinking CXX shared library libmineral_deposit_tracking.so[0m
+[24.377s] [100%] Built target mineral_deposit_tracking
+[24.398s] Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/mineral_deposit_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/training_ws/src/robojackets-ros2/build/mineral_deposit_tracking -- -j16 -l16
+[24.399s] Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/mineral_deposit_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/training_ws/src/robojackets-ros2/build/mineral_deposit_tracking
+[24.410s] -- Install configuration: ""
+[24.410s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/lib/mineral_deposit_tracking/mineral_deposit_tracker
+[24.411s] -- Set runtime path of "/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/lib/mineral_deposit_tracking/mineral_deposit_tracker" to ""
+[24.411s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/lib/libmineral_deposit_tracking.so
+[24.422s] -- Set runtime path of "/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/lib/libmineral_deposit_tracking.so" to ""
+[24.422s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/ament_index/resource_index/package_run_dependencies/mineral_deposit_tracking
+[24.422s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/ament_index/resource_index/parent_prefix_path/mineral_deposit_tracking
+[24.423s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/ament_prefix_path.sh
+[24.423s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/ament_prefix_path.dsv
+[24.423s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/path.sh
+[24.423s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/path.dsv
+[24.423s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.bash
+[24.423s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.sh
+[24.424s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.zsh
+[24.424s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.dsv
+[24.424s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.dsv
+[24.424s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/ament_index/resource_index/packages/mineral_deposit_tracking
+[24.425s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/ament_index/resource_index/rclcpp_components/mineral_deposit_tracking
+[24.425s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/cmake/mineral_deposit_trackingConfig.cmake
+[24.425s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/cmake/mineral_deposit_trackingConfig-version.cmake
+[24.425s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.xml
+[24.428s] Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/mineral_deposit_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/training_ws/src/robojackets-ros2/build/mineral_deposit_tracking

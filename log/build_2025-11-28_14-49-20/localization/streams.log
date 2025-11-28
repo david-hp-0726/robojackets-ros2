@@ -1,0 +1,98 @@
+[0.025s] Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/david/training_ws/src/robojackets-ros2/localization -DCMAKE_INSTALL_PREFIX=/home/david/training_ws/src/robojackets-ros2/install/localization
+[0.334s] -- The C compiler identification is GNU 11.4.0
+[0.456s] -- The CXX compiler identification is GNU 11.4.0
+[0.478s] -- Detecting C compiler ABI info
+[0.618s] -- Detecting C compiler ABI info - done
+[0.635s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.636s] -- Detecting C compile features
+[0.638s] -- Detecting C compile features - done
+[0.646s] -- Detecting CXX compiler ABI info
+[0.788s] -- Detecting CXX compiler ABI info - done
+[0.792s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.792s] -- Detecting CXX compile features
+[0.793s] -- Detecting CXX compile features - done
+[0.860s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.193s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.443s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.594s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.602s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.614s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.647s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.669s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.751s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.755s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.909s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.960s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.041s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.059s] -- Looking for pthread.h
+[2.206s] -- Looking for pthread.h - found
+[2.207s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.376s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.377s] -- Found Threads: TRUE  
+[2.459s] -- Found rclcpp_components: 16.0.14 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.500s] -- Found stsl_interfaces: 0.1.0 (/home/david/training_ws/install/stsl_interfaces/share/stsl_interfaces/cmake)
+[2.588s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.614s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.640s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.667s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.730s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.760s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.762s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.762s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.768s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[2.781s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.932s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.934s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.934s] -- Configured cppcheck include dirs: 
+[2.934s] -- Configured cppcheck exclude dirs and/or files: 
+[2.936s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.936s] -- Configured cpplint exclude dirs and/or files: 
+[2.938s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.939s] -- Added test 'lint_cmake' to check CMake code style
+[2.940s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.942s] -- Added test 'uncrustify' to check C / C++ code style
+[2.942s] -- Configured uncrustify additional arguments: 
+[2.944s] -- Added test 'xmllint' to check XML markup files
+[2.947s] -- Configuring done
+[2.977s] -- Generating done
+[2.982s] -- Build files have been written to: /home/david/training_ws/src/robojackets-ros2/build/localization
+[2.996s] Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/david/training_ws/src/robojackets-ros2/localization -DCMAKE_INSTALL_PREFIX=/home/david/training_ws/src/robojackets-ros2/install/localization
+[2.999s] Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/training_ws/src/robojackets-ros2/build/localization -- -j16 -l16
+[3.098s] [ 12%] [32mBuilding CXX object CMakeFiles/localization_node.dir/rclcpp_components/node_main_localization_node.cpp.o[0m
+[3.102s] [ 25%] [32mBuilding CXX object CMakeFiles/localization_component.dir/src/particle_filter_localizer.cpp.o[0m
+[3.102s] [ 37%] [32mBuilding CXX object CMakeFiles/localization_component.dir/src/random_helpers.cpp.o[0m
+[3.103s] [ 50%] [32mBuilding CXX object CMakeFiles/localization_component.dir/src/aruco_sensor_model.cpp.o[0m
+[3.103s] [ 62%] [32mBuilding CXX object CMakeFiles/localization_component.dir/src/odometry_sensor_model.cpp.o[0m
+[3.104s] [ 75%] [32mBuilding CXX object CMakeFiles/localization_component.dir/src/motion_model.cpp.o[0m
+[5.883s] [ 87%] [32m[1mLinking CXX executable localization_node[0m
+[6.031s] [ 87%] Built target localization_node
+[12.050s] [100%] [32m[1mLinking CXX shared library liblocalization_component.so[0m
+[13.402s] [100%] Built target localization_component
+[13.417s] Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/training_ws/src/robojackets-ros2/build/localization -- -j16 -l16
+[13.431s] Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/training_ws/src/robojackets-ros2/build/localization
+[13.439s] -- Install configuration: ""
+[13.441s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/lib/localization/localization_node
+[13.442s] -- Set runtime path of "/home/david/training_ws/src/robojackets-ros2/install/localization/lib/localization/localization_node" to ""
+[13.442s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/lib/liblocalization_component.so
+[13.459s] -- Set runtime path of "/home/david/training_ws/src/robojackets-ros2/install/localization/lib/liblocalization_component.so" to ""
+[13.459s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/launch
+[13.460s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/launch/particle_filter_localizer.launch.py
+[13.461s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/config
+[13.461s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/config/localizer_params.yaml
+[13.463s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/ament_index/resource_index/package_run_dependencies/localization
+[13.464s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/ament_index/resource_index/parent_prefix_path/localization
+[13.465s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/environment/ament_prefix_path.sh
+[13.466s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/environment/ament_prefix_path.dsv
+[13.466s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/environment/path.sh
+[13.468s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/environment/path.dsv
+[13.469s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/local_setup.bash
+[13.469s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/local_setup.sh
+[13.470s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/local_setup.zsh
+[13.470s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/local_setup.dsv
+[13.470s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/package.dsv
+[13.471s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/ament_index/resource_index/packages/localization
+[13.472s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/ament_index/resource_index/rclcpp_components/localization
+[13.473s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/cmake/localizationConfig.cmake
+[13.473s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/cmake/localizationConfig-version.cmake
+[13.473s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/package.xml
+[13.478s] Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/training_ws/src/robojackets-ros2/build/localization

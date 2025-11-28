@@ -1,0 +1,103 @@
+[0.058s] Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/david/training_ws/src/robojackets-ros2/obstacle_detector -DCMAKE_INSTALL_PREFIX=/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector
+[0.189s] -- The C compiler identification is GNU 11.4.0
+[0.255s] -- The CXX compiler identification is GNU 11.4.0
+[0.269s] -- Detecting C compiler ABI info
+[0.357s] -- Detecting C compiler ABI info - done
+[0.363s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.363s] -- Detecting C compile features
+[0.363s] -- Detecting C compile features - done
+[0.368s] -- Detecting CXX compiler ABI info
+[0.456s] -- Detecting CXX compiler ABI info - done
+[0.463s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.463s] -- Detecting CXX compile features
+[0.464s] -- Detecting CXX compile features - done
+[0.474s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.673s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.798s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.889s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.898s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.911s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.932s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.961s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.038s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.044s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.187s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.239s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.319s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.334s] -- Looking for pthread.h
+[1.417s] -- Looking for pthread.h - found
+[1.417s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.498s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.499s] -- Found Threads: TRUE  
+[1.571s] -- Found rclcpp_components: 16.0.14 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.610s] -- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)
+[1.693s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.707s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.720s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.784s] -- Found tf2_eigen: 0.25.16 (/opt/ros/humble/share/tf2_eigen/cmake)
+[1.794s] -- Found OpenCV: /usr (found suitable version "4.5.4", minimum required is "4") 
+[1.801s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.893s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.894s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.895s] -- Configured cppcheck include dirs: 
+[1.895s] -- Configured cppcheck exclude dirs and/or files: 
+[1.896s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.896s] -- Configured cpplint exclude dirs and/or files: 
+[1.897s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.898s] -- Added test 'lint_cmake' to check CMake code style
+[1.898s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.901s] -- Added test 'uncrustify' to check C / C++ code style
+[1.901s] -- Configured uncrustify additional arguments: 
+[1.903s] -- Added test 'xmllint' to check XML markup files
+[1.906s] -- Configuring done
+[1.928s] -- Generating done
+[1.934s] -- Build files have been written to: /home/david/training_ws/src/robojackets-ros2/build/obstacle_detector
+[1.954s] Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/david/training_ws/src/robojackets-ros2/obstacle_detector -DCMAKE_INSTALL_PREFIX=/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector
+[1.954s] Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/training_ws/src/robojackets-ros2/build/obstacle_detector -- -j16 -l16
+[1.965s] gmake: Warning: File 'Makefile' has modification time 1.4 s in the future
+[1.996s] gmake[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 1.4 s in the future
+[1.998s] gmake[2]: Warning: File 'CMakeFiles/obstacle_detector.dir/flags.make' has modification time 1.4 s in the future
+[1.999s] gmake[2]: Warning: File 'CMakeFiles/obstacle_detector_node.dir/flags.make' has modification time 1.4 s in the future
+[2.011s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.011s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.013s] gmake[2]: Warning: File 'CMakeFiles/obstacle_detector.dir/flags.make' has modification time 1.4 s in the future
+[2.014s] gmake[2]: Warning: File 'CMakeFiles/obstacle_detector_node.dir/flags.make' has modification time 1.4 s in the future
+[2.024s] [ 20%] [32mBuilding CXX object CMakeFiles/obstacle_detector.dir/src/obstacle_detector.cpp.o[0m
+[2.026s] [ 40%] [32mBuilding CXX object CMakeFiles/obstacle_detector_node.dir/rclcpp_components/node_main_obstacle_detector_node.cpp.o[0m
+[2.026s] [ 60%] [32mBuilding CXX object CMakeFiles/obstacle_detector.dir/src/student_functions.cpp.o[0m
+[7.609s] [ 80%] [32m[1mLinking CXX executable obstacle_detector_node[0m
+[7.850s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.869s] [ 80%] Built target obstacle_detector_node
+[20.235s] [100%] [32m[1mLinking CXX shared library libobstacle_detector.so[0m
+[20.818s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[20.837s] [100%] Built target obstacle_detector
+[20.839s] gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+[20.858s] gmake: warning:  Clock skew detected.  Your build may be incomplete.
+[20.863s] Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/training_ws/src/robojackets-ros2/build/obstacle_detector -- -j16 -l16
+[20.867s] Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/training_ws/src/robojackets-ros2/build/obstacle_detector
+[20.884s] -- Install configuration: ""
+[20.885s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/lib/obstacle_detector/obstacle_detector_node
+[20.886s] -- Set runtime path of "/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/lib/obstacle_detector/obstacle_detector_node" to ""
+[20.886s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/lib/libobstacle_detector.so
+[20.890s] -- Set runtime path of "/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/lib/libobstacle_detector.so" to ""
+[20.890s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/launch
+[20.891s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/launch/obstacle_detector.launch.py
+[20.891s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/config
+[20.891s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/config/obstacle_detector_parameters.yaml
+[20.892s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/ament_index/resource_index/package_run_dependencies/obstacle_detector
+[20.892s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/ament_index/resource_index/parent_prefix_path/obstacle_detector
+[20.893s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/environment/ament_prefix_path.sh
+[20.894s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/environment/ament_prefix_path.dsv
+[20.894s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/environment/path.sh
+[20.894s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/environment/path.dsv
+[20.894s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/local_setup.bash
+[20.895s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/local_setup.sh
+[20.895s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/local_setup.zsh
+[20.895s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/local_setup.dsv
+[20.896s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/package.dsv
+[20.897s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/ament_index/resource_index/packages/obstacle_detector
+[20.898s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/ament_index/resource_index/rclcpp_components/obstacle_detector
+[20.898s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detectorConfig.cmake
+[20.899s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detectorConfig-version.cmake
+[20.899s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/package.xml
+[20.905s] Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/training_ws/src/robojackets-ros2/build/obstacle_detector

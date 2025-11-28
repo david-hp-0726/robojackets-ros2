@@ -1,0 +1,81 @@
+[0.077s] Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/astar_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/david/training_ws/src/robojackets-ros2/astar_path_planner -DCMAKE_INSTALL_PREFIX=/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner
+[0.236s] -- The C compiler identification is GNU 11.4.0
+[0.300s] -- The CXX compiler identification is GNU 11.4.0
+[0.317s] -- Detecting C compiler ABI info
+[0.404s] -- Detecting C compiler ABI info - done
+[0.409s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.409s] -- Detecting C compile features
+[0.411s] -- Detecting C compile features - done
+[0.416s] -- Detecting CXX compiler ABI info
+[0.503s] -- Detecting CXX compiler ABI info - done
+[0.507s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.507s] -- Detecting CXX compile features
+[0.509s] -- Detecting CXX compile features - done
+[0.522s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.718s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.847s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.937s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.946s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.959s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.981s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.009s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.087s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.093s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.232s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.284s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.364s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.382s] -- Looking for pthread.h
+[1.465s] -- Looking for pthread.h - found
+[1.466s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.541s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.541s] -- Found Threads: TRUE  
+[1.624s] -- Found nav2_core: 1.1.18 (/opt/ros/humble/share/nav2_core/cmake)
+[1.906s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.906s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.060s] -- Found tf2_eigen: 0.25.16 (/opt/ros/humble/share/tf2_eigen/cmake)
+[2.096s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.208s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.211s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.211s] -- Configured cppcheck include dirs: 
+[2.211s] -- Configured cppcheck exclude dirs and/or files: 
+[2.214s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.215s] -- Configured cpplint exclude dirs and/or files: 
+[2.215s] -- Added test 'lint_cmake' to check CMake code style
+[2.215s] -- Added test 'uncrustify' to check C / C++ code style
+[2.215s] -- Configured uncrustify additional arguments: 
+[2.215s] -- Added test 'xmllint' to check XML markup files
+[2.219s] -- Configuring done
+[2.301s] -- Generating done
+[2.308s] -- Build files have been written to: /home/david/training_ws/src/robojackets-ros2/build/astar_path_planner
+[2.328s] Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/astar_path_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/david/training_ws/src/robojackets-ros2/astar_path_planner -DCMAKE_INSTALL_PREFIX=/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner
+[2.330s] Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/astar_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/training_ws/src/robojackets-ros2/build/astar_path_planner -- -j16 -l16
+[2.418s] [ 25%] [32mBuilding CXX object CMakeFiles/astar_path_planner.dir/src/utils.cpp.o[0m
+[2.418s] [ 50%] [32mBuilding CXX object CMakeFiles/astar_path_planner.dir/src/astar_path_planner_plugin.cpp.o[0m
+[2.421s] [ 75%] [32mBuilding CXX object CMakeFiles/astar_path_planner.dir/src/astar_path_planner.cpp.o[0m
+[19.168s] [100%] [32m[1mLinking CXX shared library libastar_path_planner.so[0m
+[20.121s] [100%] Built target astar_path_planner
+[20.149s] Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/astar_path_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/training_ws/src/robojackets-ros2/build/astar_path_planner -- -j16 -l16
+[20.151s] Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/astar_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/training_ws/src/robojackets-ros2/build/astar_path_planner
+[20.174s] -- Install configuration: ""
+[20.174s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/lib/libastar_path_planner.so
+[20.177s] -- Set runtime path of "/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/lib/libastar_path_planner.so" to ""
+[20.178s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/astar_path_planner_libraries.xml
+[20.179s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/ament_index/resource_index/package_run_dependencies/astar_path_planner
+[20.179s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/ament_index/resource_index/parent_prefix_path/astar_path_planner
+[20.180s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/environment/ament_prefix_path.sh
+[20.180s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/environment/ament_prefix_path.dsv
+[20.181s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/environment/path.sh
+[20.181s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/environment/path.dsv
+[20.181s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/local_setup.bash
+[20.181s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/local_setup.sh
+[20.181s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/local_setup.zsh
+[20.182s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/local_setup.dsv
+[20.182s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/package.dsv
+[20.182s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/ament_index/resource_index/packages/astar_path_planner
+[20.183s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/astar_path_planner
+[20.185s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.187s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.187s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/cmake/astar_path_plannerConfig.cmake
+[20.187s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/cmake/astar_path_plannerConfig-version.cmake
+[20.188s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/package.xml
+[20.193s] Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/astar_path_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/training_ws/src/robojackets-ros2/build/astar_path_planner

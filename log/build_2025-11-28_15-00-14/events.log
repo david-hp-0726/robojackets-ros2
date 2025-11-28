@@ -1,0 +1,303 @@
+[0.000000] (-) TimerEvent: {}
+[0.000726] (-) JobUnselected: {'identifier': 'astar_path_planner'}
+[0.000774] (-) JobUnselected: {'identifier': 'controllers'}
+[0.000810] (-) JobUnselected: {'identifier': 'coordinate_transform'}
+[0.000821] (-) JobUnselected: {'identifier': 'mapping'}
+[0.000833] (-) JobUnselected: {'identifier': 'mineral_deposit_tracking'}
+[0.000840] (-) JobUnselected: {'identifier': 'obstacle_detector'}
+[0.000849] (-) JobUnselected: {'identifier': 'peak_finder'}
+[0.000858] (-) JobUnselected: {'identifier': 'rj_training_bringup'}
+[0.000867] (localization) JobQueued: {'identifier': 'localization', 'dependencies': OrderedDict()}
+[0.000897] (localization) JobStarted: {'identifier': 'localization'}
+[0.015193] (localization) JobProgress: {'identifier': 'localization', 'progress': 'cmake'}
+[0.016081] (localization) JobProgress: {'identifier': 'localization', 'progress': 'build'}
+[0.016178] (localization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/david/training_ws/src/robojackets-ros2/build/localization', '--', '-j16', '-l16'], 'cwd': '/home/david/training_ws/src/robojackets-ros2/build/localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/david'), ('USER', 'david'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/david/training_ws/install/stsl_utils/lib:/home/david/training_ws/install/stsl_rviz_plugins/lib:/home/david/training_ws/install/stsl_nav_plugins/lib:/home/david/training_ws/install/mission_orchestration/lib:/home/david/training_ws/install/stsl_bt_nodes/lib:/home/david/training_ws/install/stsl_aruco_tags/lib:/home/david/training_ws/install/peak_finder/lib:/home/david/training_ws/install/mineral_deposit_tracking/lib:/home/david/training_ws/install/mineral_deposit_detection/lib:/home/david/training_ws/install/localization/lib:/home/david/training_ws/install/elevation_server/lib:/home/david/training_ws/install/coordinate_transform/lib:/home/david/training_ws/install/stsl_interfaces/lib:/home/david/training_ws/install/stsl_gazebo_plugins/lib:/home/david/training_ws/install/obstacle_detector/lib:/home/david/training_ws/install/mapping/lib:/home/david/training_ws/install/controllers/lib:/home/david/training_ws/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/david'), ('OLDPWD', '/home/david'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/david/training_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'david'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c4'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/david/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/mnt/c/Users/dchen/AppData/Local/Programs/Microsoft VS Code/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/david/training_ws/install/stsl_desktop:/home/david/training_ws/install/traini_bringup:/home/david/training_ws/install/traini_gazebo:/home/david/training_ws/install/traini_description:/home/david/training_ws/install/stsl_utils:/home/david/training_ws/install/stsl_rviz_plugins:/home/david/training_ws/install/stsl_nav_plugins:/home/david/training_ws/install/mission_orchestration:/home/david/training_ws/install/stsl_bt_nodes:/home/david/training_ws/install/stsl_aruco_tags:/home/david/training_ws/install/peak_finder:/home/david/training_ws/install/mineral_deposit_tracking:/home/david/training_ws/install/mineral_deposit_detection:/home/david/training_ws/install/localization:/home/david/training_ws/install/elevation_server:/home/david/training_ws/install/coordinate_transform:/home/david/training_ws/install/stsl_interfaces:/home/david/training_ws/install/stsl_gazebo_plugins:/home/david/training_ws/install/rj_training_bringup:/home/david/training_ws/install/obstacle_detector:/home/david/training_ws/install/mapping:/home/david/training_ws/install/controllers:/home/david/training_ws/install/astar_path_planner:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/david/training_ws/src/robojackets-ros2/build/localization'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/david/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/david/training_ws/install/stsl_desktop:/home/david/training_ws/install/traini_bringup:/home/david/training_ws/install/traini_gazebo:/home/david/training_ws/install/traini_description:/home/david/training_ws/install/stsl_utils:/home/david/training_ws/install/stsl_rviz_plugins:/home/david/training_ws/install/stsl_nav_plugins:/home/david/training_ws/install/mission_orchestration:/home/david/training_ws/install/stsl_bt_nodes:/home/david/training_ws/install/stsl_aruco_tags:/home/david/training_ws/install/peak_finder:/home/david/training_ws/install/mineral_deposit_tracking:/home/david/training_ws/install/mineral_deposit_detection:/home/david/training_ws/install/localization:/home/david/training_ws/install/elevation_server:/home/david/training_ws/install/coordinate_transform:/home/david/training_ws/install/stsl_interfaces:/home/david/training_ws/install/stsl_gazebo_plugins:/home/david/training_ws/install/rj_training_bringup:/home/david/training_ws/install/obstacle_detector:/home/david/training_ws/install/mapping:/home/david/training_ws/install/controllers:/home/david/training_ws/install/astar_path_planner:/opt/ros/humble')]), 'shell': False}
+[0.098660] (-) TimerEvent: {}
+[0.116569] (localization) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/localization_component.dir/src/particle_filter_localizer.cpp.o\x1b[0m\n'}
+[0.198988] (-) TimerEvent: {}
+[0.301115] (-) TimerEvent: {}
+[0.402734] (-) TimerEvent: {}
+[0.507697] (-) TimerEvent: {}
+[0.612895] (-) TimerEvent: {}
+[0.713661] (-) TimerEvent: {}
+[0.814464] (-) TimerEvent: {}
+[0.918408] (-) TimerEvent: {}
+[1.022425] (-) TimerEvent: {}
+[1.126440] (-) TimerEvent: {}
+[1.230311] (-) TimerEvent: {}
+[1.334123] (-) TimerEvent: {}
+[1.437096] (-) TimerEvent: {}
+[1.540978] (-) TimerEvent: {}
+[1.645374] (-) TimerEvent: {}
+[1.746233] (-) TimerEvent: {}
+[1.850090] (-) TimerEvent: {}
+[1.953980] (-) TimerEvent: {}
+[2.057876] (-) TimerEvent: {}
+[2.161736] (-) TimerEvent: {}
+[2.265715] (-) TimerEvent: {}
+[2.367679] (-) TimerEvent: {}
+[2.472148] (-) TimerEvent: {}
+[2.573347] (-) TimerEvent: {}
+[2.678503] (-) TimerEvent: {}
+[2.783727] (-) TimerEvent: {}
+[2.886404] (-) TimerEvent: {}
+[2.991667] (-) TimerEvent: {}
+[3.094375] (-) TimerEvent: {}
+[3.195919] (-) TimerEvent: {}
+[3.299108] (-) TimerEvent: {}
+[3.400474] (-) TimerEvent: {}
+[3.504282] (-) TimerEvent: {}
+[3.605376] (-) TimerEvent: {}
+[3.709252] (-) TimerEvent: {}
+[3.811307] (-) TimerEvent: {}
+[3.912358] (-) TimerEvent: {}
+[4.013330] (-) TimerEvent: {}
+[4.114375] (-) TimerEvent: {}
+[4.215110] (-) TimerEvent: {}
+[4.317281] (-) TimerEvent: {}
+[4.419059] (-) TimerEvent: {}
+[4.522435] (-) TimerEvent: {}
+[4.625723] (-) TimerEvent: {}
+[4.728161] (-) TimerEvent: {}
+[4.831775] (-) TimerEvent: {}
+[4.935827] (-) TimerEvent: {}
+[5.040021] (-) TimerEvent: {}
+[5.144231] (-) TimerEvent: {}
+[5.247675] (-) TimerEvent: {}
+[5.351607] (-) TimerEvent: {}
+[5.455122] (-) TimerEvent: {}
+[5.558980] (-) TimerEvent: {}
+[5.662994] (-) TimerEvent: {}
+[5.766875] (-) TimerEvent: {}
+[5.870752] (-) TimerEvent: {}
+[5.974784] (-) TimerEvent: {}
+[6.078714] (-) TimerEvent: {}
+[6.182571] (-) TimerEvent: {}
+[6.286468] (-) TimerEvent: {}
+[6.390286] (-) TimerEvent: {}
+[6.495281] (-) TimerEvent: {}
+[6.600447] (-) TimerEvent: {}
+[6.705427] (-) TimerEvent: {}
+[6.808484] (-) TimerEvent: {}
+[6.912447] (-) TimerEvent: {}
+[7.016422] (-) TimerEvent: {}
+[7.117751] (-) TimerEvent: {}
+[7.221733] (-) TimerEvent: {}
+[7.325876] (-) TimerEvent: {}
+[7.429976] (-) TimerEvent: {}
+[7.533994] (-) TimerEvent: {}
+[7.636337] (-) TimerEvent: {}
+[7.740494] (-) TimerEvent: {}
+[7.842692] (-) TimerEvent: {}
+[7.946639] (-) TimerEvent: {}
+[8.050666] (-) TimerEvent: {}
+[8.154749] (-) TimerEvent: {}
+[8.259228] (-) TimerEvent: {}
+[8.363763] (-) TimerEvent: {}
+[8.468267] (-) TimerEvent: {}
+[8.572973] (-) TimerEvent: {}
+[8.677607] (-) TimerEvent: {}
+[8.782347] (-) TimerEvent: {}
+[8.886992] (-) TimerEvent: {}
+[8.991770] (-) TimerEvent: {}
+[9.096473] (-) TimerEvent: {}
+[9.201284] (-) TimerEvent: {}
+[9.306056] (-) TimerEvent: {}
+[9.410837] (-) TimerEvent: {}
+[9.515495] (-) TimerEvent: {}
+[9.620112] (-) TimerEvent: {}
+[9.721257] (-) TimerEvent: {}
+[9.825651] (-) TimerEvent: {}
+[9.926403] (-) TimerEvent: {}
+[10.030857] (-) TimerEvent: {}
+[10.135493] (-) TimerEvent: {}
+[10.236679] (-) TimerEvent: {}
+[10.341091] (-) TimerEvent: {}
+[10.445812] (-) TimerEvent: {}
+[10.550562] (-) TimerEvent: {}
+[10.655218] (-) TimerEvent: {}
+[10.759914] (-) TimerEvent: {}
+[10.864424] (-) TimerEvent: {}
+[10.968966] (-) TimerEvent: {}
+[11.071297] (-) TimerEvent: {}
+[11.175859] (-) TimerEvent: {}
+[11.280687] (-) TimerEvent: {}
+[11.385563] (-) TimerEvent: {}
+[11.490202] (-) TimerEvent: {}
+[11.594651] (-) TimerEvent: {}
+[11.699161] (-) TimerEvent: {}
+[11.802355] (-) TimerEvent: {}
+[11.906793] (-) TimerEvent: {}
+[12.011503] (-) TimerEvent: {}
+[12.116015] (-) TimerEvent: {}
+[12.220670] (-) TimerEvent: {}
+[12.325315] (-) TimerEvent: {}
+[12.429771] (-) TimerEvent: {}
+[12.534318] (-) TimerEvent: {}
+[12.637129] (-) TimerEvent: {}
+[12.741679] (-) TimerEvent: {}
+[12.846193] (-) TimerEvent: {}
+[12.950849] (-) TimerEvent: {}
+[13.055322] (-) TimerEvent: {}
+[13.158335] (-) TimerEvent: {}
+[13.263772] (-) TimerEvent: {}
+[13.368454] (-) TimerEvent: {}
+[13.471706] (-) TimerEvent: {}
+[13.576318] (-) TimerEvent: {}
+[13.677663] (-) TimerEvent: {}
+[13.754305] (localization) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/localization_component.dir/src/odometry_sensor_model.cpp.o\x1b[0m\n'}
+[13.778087] (-) TimerEvent: {}
+[13.878793] (-) TimerEvent: {}
+[13.979911] (-) TimerEvent: {}
+[14.080899] (-) TimerEvent: {}
+[14.181774] (-) TimerEvent: {}
+[14.282410] (-) TimerEvent: {}
+[14.383107] (-) TimerEvent: {}
+[14.484328] (-) TimerEvent: {}
+[14.585221] (-) TimerEvent: {}
+[14.691249] (-) TimerEvent: {}
+[14.792765] (-) TimerEvent: {}
+[14.896728] (-) TimerEvent: {}
+[14.998362] (-) TimerEvent: {}
+[15.102687] (-) TimerEvent: {}
+[15.204219] (-) TimerEvent: {}
+[15.308779] (-) TimerEvent: {}
+[15.413222] (-) TimerEvent: {}
+[15.517830] (-) TimerEvent: {}
+[15.623864] (-) TimerEvent: {}
+[15.729784] (-) TimerEvent: {}
+[15.831479] (-) TimerEvent: {}
+[15.932590] (-) TimerEvent: {}
+[16.038514] (-) TimerEvent: {}
+[16.144499] (-) TimerEvent: {}
+[16.250503] (-) TimerEvent: {}
+[16.356333] (-) TimerEvent: {}
+[16.458671] (-) TimerEvent: {}
+[16.564961] (-) TimerEvent: {}
+[16.671114] (-) TimerEvent: {}
+[16.777281] (-) TimerEvent: {}
+[16.883278] (-) TimerEvent: {}
+[16.986794] (-) TimerEvent: {}
+[17.091313] (-) TimerEvent: {}
+[17.195869] (-) TimerEvent: {}
+[17.300703] (-) TimerEvent: {}
+[17.403577] (-) TimerEvent: {}
+[17.507807] (-) TimerEvent: {}
+[17.612411] (-) TimerEvent: {}
+[17.717230] (-) TimerEvent: {}
+[17.821935] (-) TimerEvent: {}
+[17.926688] (-) TimerEvent: {}
+[18.029843] (-) TimerEvent: {}
+[18.134547] (-) TimerEvent: {}
+[18.239060] (-) TimerEvent: {}
+[18.343537] (-) TimerEvent: {}
+[18.444712] (-) TimerEvent: {}
+[18.548910] (-) TimerEvent: {}
+[18.650221] (-) TimerEvent: {}
+[18.754764] (-) TimerEvent: {}
+[18.859273] (-) TimerEvent: {}
+[18.961234] (-) TimerEvent: {}
+[19.065791] (-) TimerEvent: {}
+[19.170721] (-) TimerEvent: {}
+[19.275393] (-) TimerEvent: {}
+[19.378327] (-) TimerEvent: {}
+[19.481154] (-) TimerEvent: {}
+[19.585817] (-) TimerEvent: {}
+[19.690510] (-) TimerEvent: {}
+[19.795310] (-) TimerEvent: {}
+[19.899994] (-) TimerEvent: {}
+[20.002654] (-) TimerEvent: {}
+[20.107322] (-) TimerEvent: {}
+[20.208230] (-) TimerEvent: {}
+[20.310411] (-) TimerEvent: {}
+[20.415170] (-) TimerEvent: {}
+[20.519500] (-) TimerEvent: {}
+[20.624297] (-) TimerEvent: {}
+[20.729013] (-) TimerEvent: {}
+[20.833736] (-) TimerEvent: {}
+[20.934971] (-) TimerEvent: {}
+[21.039531] (-) TimerEvent: {}
+[21.142051] (-) TimerEvent: {}
+[21.246375] (-) TimerEvent: {}
+[21.351016] (-) TimerEvent: {}
+[21.451883] (-) TimerEvent: {}
+[21.556261] (-) TimerEvent: {}
+[21.659304] (-) TimerEvent: {}
+[21.760317] (-) TimerEvent: {}
+[21.864538] (-) TimerEvent: {}
+[21.966298] (-) TimerEvent: {}
+[22.070655] (-) TimerEvent: {}
+[22.173905] (-) TimerEvent: {}
+[22.278275] (-) TimerEvent: {}
+[22.379590] (-) TimerEvent: {}
+[22.482020] (-) TimerEvent: {}
+[22.582618] (-) TimerEvent: {}
+[22.684906] (-) TimerEvent: {}
+[22.789328] (-) TimerEvent: {}
+[22.894115] (-) TimerEvent: {}
+[22.997135] (-) TimerEvent: {}
+[23.101568] (-) TimerEvent: {}
+[23.206054] (-) TimerEvent: {}
+[23.310583] (-) TimerEvent: {}
+[23.415068] (-) TimerEvent: {}
+[23.519394] (-) TimerEvent: {}
+[23.620458] (-) TimerEvent: {}
+[23.725042] (-) TimerEvent: {}
+[23.826678] (-) TimerEvent: {}
+[23.930853] (-) TimerEvent: {}
+[24.035301] (-) TimerEvent: {}
+[24.136213] (-) TimerEvent: {}
+[24.238337] (-) TimerEvent: {}
+[24.341717] (-) TimerEvent: {}
+[24.442782] (-) TimerEvent: {}
+[24.473092] (localization) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library liblocalization_component.so\x1b[0m\n'}
+[24.543340] (-) TimerEvent: {}
+[24.644327] (-) TimerEvent: {}
+[24.745217] (-) TimerEvent: {}
+[24.846142] (-) TimerEvent: {}
+[24.946990] (-) TimerEvent: {}
+[25.047785] (-) TimerEvent: {}
+[25.149356] (-) TimerEvent: {}
+[25.250025] (-) TimerEvent: {}
+[25.355435] (-) TimerEvent: {}
+[25.458682] (-) TimerEvent: {}
+[25.564078] (-) TimerEvent: {}
+[25.665267] (-) TimerEvent: {}
+[25.770714] (-) TimerEvent: {}
+[25.876071] (-) TimerEvent: {}
+[25.977663] (-) TimerEvent: {}
+[26.082900] (-) TimerEvent: {}
+[26.188283] (-) TimerEvent: {}
+[26.208822] (localization) StdoutLine: {'line': b'[ 75%] Built target localization_component\n'}
+[26.263569] (localization) StdoutLine: {'line': b'[100%] Built target localization_node\n'}
+[26.284643] (localization) CommandEnded: {'returncode': 0}
+[26.286069] (localization) JobProgress: {'identifier': 'localization', 'progress': 'install'}
+[26.288669] (-) TimerEvent: {}
+[26.305223] (localization) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/david/training_ws/src/robojackets-ros2/build/localization'], 'cwd': '/home/david/training_ws/src/robojackets-ros2/build/localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/david'), ('USER', 'david'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/david/training_ws/install/stsl_utils/lib:/home/david/training_ws/install/stsl_rviz_plugins/lib:/home/david/training_ws/install/stsl_nav_plugins/lib:/home/david/training_ws/install/mission_orchestration/lib:/home/david/training_ws/install/stsl_bt_nodes/lib:/home/david/training_ws/install/stsl_aruco_tags/lib:/home/david/training_ws/install/peak_finder/lib:/home/david/training_ws/install/mineral_deposit_tracking/lib:/home/david/training_ws/install/mineral_deposit_detection/lib:/home/david/training_ws/install/localization/lib:/home/david/training_ws/install/elevation_server/lib:/home/david/training_ws/install/coordinate_transform/lib:/home/david/training_ws/install/stsl_interfaces/lib:/home/david/training_ws/install/stsl_gazebo_plugins/lib:/home/david/training_ws/install/obstacle_detector/lib:/home/david/training_ws/install/mapping/lib:/home/david/training_ws/install/controllers/lib:/home/david/training_ws/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/david'), ('OLDPWD', '/home/david'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/david/training_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'david'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c4'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/david/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/mnt/c/Users/dchen/AppData/Local/Programs/Microsoft VS Code/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/david/training_ws/install/stsl_desktop:/home/david/training_ws/install/traini_bringup:/home/david/training_ws/install/traini_gazebo:/home/david/training_ws/install/traini_description:/home/david/training_ws/install/stsl_utils:/home/david/training_ws/install/stsl_rviz_plugins:/home/david/training_ws/install/stsl_nav_plugins:/home/david/training_ws/install/mission_orchestration:/home/david/training_ws/install/stsl_bt_nodes:/home/david/training_ws/install/stsl_aruco_tags:/home/david/training_ws/install/peak_finder:/home/david/training_ws/install/mineral_deposit_tracking:/home/david/training_ws/install/mineral_deposit_detection:/home/david/training_ws/install/localization:/home/david/training_ws/install/elevation_server:/home/david/training_ws/install/coordinate_transform:/home/david/training_ws/install/stsl_interfaces:/home/david/training_ws/install/stsl_gazebo_plugins:/home/david/training_ws/install/rj_training_bringup:/home/david/training_ws/install/obstacle_detector:/home/david/training_ws/install/mapping:/home/david/training_ws/install/controllers:/home/david/training_ws/install/astar_path_planner:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/david/training_ws/src/robojackets-ros2/build/localization'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/david/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/david/training_ws/install/stsl_desktop:/home/david/training_ws/install/traini_bringup:/home/david/training_ws/install/traini_gazebo:/home/david/training_ws/install/traini_description:/home/david/training_ws/install/stsl_utils:/home/david/training_ws/install/stsl_rviz_plugins:/home/david/training_ws/install/stsl_nav_plugins:/home/david/training_ws/install/mission_orchestration:/home/david/training_ws/install/stsl_bt_nodes:/home/david/training_ws/install/stsl_aruco_tags:/home/david/training_ws/install/peak_finder:/home/david/training_ws/install/mineral_deposit_tracking:/home/david/training_ws/install/mineral_deposit_detection:/home/david/training_ws/install/localization:/home/david/training_ws/install/elevation_server:/home/david/training_ws/install/coordinate_transform:/home/david/training_ws/install/stsl_interfaces:/home/david/training_ws/install/stsl_gazebo_plugins:/home/david/training_ws/install/rj_training_bringup:/home/david/training_ws/install/obstacle_detector:/home/david/training_ws/install/mapping:/home/david/training_ws/install/controllers:/home/david/training_ws/install/astar_path_planner:/opt/ros/humble')]), 'shell': False}
+[26.321254] (localization) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.322000] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/lib/localization/localization_node\n'}
+[26.322610] (localization) StdoutLine: {'line': b'-- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/lib/liblocalization_component.so\n'}
+[26.336635] (localization) StdoutLine: {'line': b'-- Set runtime path of "/home/david/training_ws/src/robojackets-ros2/install/localization/lib/liblocalization_component.so" to ""\n'}
+[26.337218] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/launch\n'}
+[26.337402] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/launch/particle_filter_localizer.launch.py\n'}
+[26.337565] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/config\n'}
+[26.338197] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/config/localizer_params.yaml\n'}
+[26.338263] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/ament_index/resource_index/package_run_dependencies/localization\n'}
+[26.338299] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/ament_index/resource_index/parent_prefix_path/localization\n'}
+[26.338330] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/environment/ament_prefix_path.sh\n'}
+[26.338358] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/environment/ament_prefix_path.dsv\n'}
+[26.338384] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/environment/path.sh\n'}
+[26.338412] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/environment/path.dsv\n'}
+[26.338437] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/local_setup.bash\n'}
+[26.338461] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/local_setup.sh\n'}
+[26.338484] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/local_setup.zsh\n'}
+[26.338507] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/local_setup.dsv\n'}
+[26.338529] (localization) StdoutLine: {'line': b'-- Installing: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/package.dsv\n'}
+[26.338552] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/ament_index/resource_index/packages/localization\n'}
+[26.338783] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/ament_index/resource_index/rclcpp_components/localization\n'}
+[26.338995] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/cmake/localizationConfig.cmake\n'}
+[26.339264] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/cmake/localizationConfig-version.cmake\n'}
+[26.339446] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/package.xml\n'}
+[26.345967] (localization) CommandEnded: {'returncode': 0}
+[26.365267] (localization) JobEnded: {'identifier': 'localization', 'rc': 0}
+[26.366476] (-) EventReactorShutdown: {}

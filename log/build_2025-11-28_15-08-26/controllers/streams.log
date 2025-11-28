@@ -1,0 +1,25 @@
+[0.069s] Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/training_ws/src/robojackets-ros2/build/controllers -- -j16 -l16
+[0.128s] [35m[1mConsolidate compiler generated dependencies of target controllers[0m
+[0.168s] [100%] Built target controllers
+[0.224s] Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/training_ws/src/robojackets-ros2/build/controllers -- -j16 -l16
+[0.225s] Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/training_ws/src/robojackets-ros2/build/controllers
+[0.239s] -- Install configuration: ""
+[0.239s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/lib/libcontrollers.so
+[0.240s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/plugin_descriptions.xml
+[0.240s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/ament_index/resource_index/package_run_dependencies/controllers
+[0.240s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/ament_index/resource_index/parent_prefix_path/controllers
+[0.240s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/environment/ament_prefix_path.sh
+[0.240s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/environment/ament_prefix_path.dsv
+[0.240s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/environment/path.sh
+[0.241s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/environment/path.dsv
+[0.241s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/local_setup.bash
+[0.241s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/local_setup.sh
+[0.241s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/local_setup.zsh
+[0.241s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/local_setup.dsv
+[0.241s] -- Installing: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/package.dsv
+[0.241s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/ament_index/resource_index/packages/controllers
+[0.241s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/ament_index/resource_index/nav2_core__pluginlib__plugin/controllers
+[0.241s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/cmake/controllersConfig.cmake
+[0.241s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/cmake/controllersConfig-version.cmake
+[0.241s] -- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/package.xml
+[0.307s] Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/training_ws/src/robojackets-ros2/build/controllers

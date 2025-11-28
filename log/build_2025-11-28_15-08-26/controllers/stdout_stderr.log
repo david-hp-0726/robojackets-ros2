@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target controllers[0m
+[100%] Built target controllers
+-- Install configuration: ""
+-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/lib/libcontrollers.so
+-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/plugin_descriptions.xml
+-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/ament_index/resource_index/package_run_dependencies/controllers
+-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/ament_index/resource_index/parent_prefix_path/controllers
+-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/environment/ament_prefix_path.sh
+-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/environment/path.sh
+-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/environment/path.dsv
+-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/local_setup.bash
+-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/local_setup.sh
+-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/local_setup.zsh
+-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/local_setup.dsv
+-- Installing: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/package.dsv
+-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/ament_index/resource_index/packages/controllers
+-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/ament_index/resource_index/nav2_core__pluginlib__plugin/controllers
+-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/cmake/controllersConfig.cmake
+-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/cmake/controllersConfig-version.cmake
+-- Up-to-date: /home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/package.xml

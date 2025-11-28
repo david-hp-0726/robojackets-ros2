@@ -1,0 +1,918 @@
+[0.103s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.103s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x760e91d74850>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x760e91e75cc0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x760e91e75cc0>>)
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.295s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/david/training_ws/src/robojackets-ros2'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(GitHub Templates) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(GitHub Templates) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(GitHub Templates) by extension 'ignore_ament_install'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(GitHub Templates) by extensions ['colcon_pkg']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(GitHub Templates) by extension 'colcon_pkg'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(GitHub Templates) by extensions ['colcon_meta']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(GitHub Templates) by extension 'colcon_meta'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(GitHub Templates) by extensions ['ros']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(GitHub Templates) by extension 'ros'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(GitHub Templates) by extensions ['cmake', 'python']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(GitHub Templates) by extension 'cmake'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(GitHub Templates) by extension 'python'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(GitHub Templates) by extensions ['python_setup_py']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(GitHub Templates) by extension 'python_setup_py'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(astar_path_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(astar_path_planner) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(astar_path_planner) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(astar_path_planner) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(astar_path_planner) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(astar_path_planner) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(astar_path_planner) by extension 'colcon_meta'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(astar_path_planner) by extensions ['ros']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(astar_path_planner) by extension 'ros'
+[0.312s] DEBUG:colcon.colcon_core.package_identification:Package 'astar_path_planner' with type 'ros.ament_cmake' and name 'astar_path_planner'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(controllers) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(controllers) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(controllers) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(controllers) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(controllers) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(controllers) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(controllers) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(controllers) by extension 'ros'
+[0.313s] DEBUG:colcon.colcon_core.package_identification:Package 'controllers' with type 'ros.ament_cmake' and name 'controllers'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(coordinate_transform) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(coordinate_transform) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(coordinate_transform) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(coordinate_transform) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(coordinate_transform) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(coordinate_transform) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(coordinate_transform) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(coordinate_transform) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(coordinate_transform) by extension 'ros'
+[0.315s] DEBUG:colcon.colcon_core.package_identification:Package 'coordinate_transform' with type 'ros.ament_cmake' and name 'coordinate_transform'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(localization) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(localization) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(localization) by extension 'ignore_ament_install'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(localization) by extensions ['colcon_pkg']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(localization) by extension 'colcon_pkg'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(localization) by extensions ['colcon_meta']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(localization) by extension 'colcon_meta'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(localization) by extensions ['ros']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(localization) by extension 'ros'
+[0.318s] DEBUG:colcon.colcon_core.package_identification:Package 'localization' with type 'ros.ament_cmake' and name 'localization'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(mapping) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(mapping) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(mapping) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(mapping) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(mapping) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(mapping) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(mapping) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(mapping) by extension 'ros'
+[0.319s] DEBUG:colcon.colcon_core.package_identification:Package 'mapping' with type 'ros.ament_cmake' and name 'mapping'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(mineral_deposit_tracking) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(mineral_deposit_tracking) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(mineral_deposit_tracking) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(mineral_deposit_tracking) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(mineral_deposit_tracking) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(mineral_deposit_tracking) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(mineral_deposit_tracking) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(mineral_deposit_tracking) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(mineral_deposit_tracking) by extension 'ros'
+[0.321s] DEBUG:colcon.colcon_core.package_identification:Package 'mineral_deposit_tracking' with type 'ros.ament_cmake' and name 'mineral_deposit_tracking'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detector) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detector) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detector) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detector) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detector) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detector) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detector) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detector) by extension 'ros'
+[0.322s] DEBUG:colcon.colcon_core.package_identification:Package 'obstacle_detector' with type 'ros.ament_cmake' and name 'obstacle_detector'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(peak_finder) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(peak_finder) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(peak_finder) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(peak_finder) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(peak_finder) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(peak_finder) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(peak_finder) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(peak_finder) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(peak_finder) by extension 'ros'
+[0.322s] DEBUG:colcon.colcon_core.package_identification:Package 'peak_finder' with type 'ros.ament_cmake' and name 'peak_finder'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects) by extension 'ros'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects) by extensions ['cmake', 'python']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects) by extension 'cmake'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects) by extension 'python'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects) by extensions ['python_setup_py']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects) by extension 'python_setup_py'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_1) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_1) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_1) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_1) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_1) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_1) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_1) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_1) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_1) by extension 'ros'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_1) by extensions ['cmake', 'python']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_1) by extension 'cmake'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_1) by extension 'python'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_1) by extensions ['python_setup_py']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_1) by extension 'python_setup_py'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_10) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_10) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_10) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_10) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_10) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_10) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_10) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_10) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_10) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_10) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_10) by extension 'cmake'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_10) by extension 'python'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_10) by extensions ['python_setup_py']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_10) by extension 'python_setup_py'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_2) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_2) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_2) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_2) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_2) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_2) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_2) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_2) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_2) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_2) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_2) by extension 'cmake'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_2) by extension 'python'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_2) by extensions ['python_setup_py']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_2) by extension 'python_setup_py'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_3) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_3) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_3) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_3) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_3) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_3) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_3) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_3) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_3) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_3) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_3) by extension 'cmake'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_3) by extension 'python'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_3) by extensions ['python_setup_py']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_3) by extension 'python_setup_py'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_4) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_4) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_4) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_4) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_4) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_4) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_4) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_4) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_4) by extension 'ros'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_4) by extensions ['cmake', 'python']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_4) by extension 'cmake'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_4) by extension 'python'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_4) by extensions ['python_setup_py']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_4) by extension 'python_setup_py'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_5) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_5) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_5) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_5) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_5) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_5) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_5) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_5) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_5) by extension 'ros'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_5) by extensions ['cmake', 'python']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_5) by extension 'cmake'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_5) by extension 'python'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_5) by extensions ['python_setup_py']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_5) by extension 'python_setup_py'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_6) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_6) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_6) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_6) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_6) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_6) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_6) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_6) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_6) by extension 'ros'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_6) by extensions ['cmake', 'python']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_6) by extension 'cmake'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_6) by extension 'python'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_6) by extensions ['python_setup_py']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_6) by extension 'python_setup_py'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_7) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_7) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_7) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_7) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_7) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_7) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_7) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_7) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_7) by extension 'ros'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_7) by extensions ['cmake', 'python']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_7) by extension 'cmake'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_7) by extension 'python'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_7) by extensions ['python_setup_py']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_7) by extension 'python_setup_py'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_8) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_8) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_8) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_8) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_8) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_8) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_8) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_8) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_8) by extension 'ros'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_8) by extensions ['cmake', 'python']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_8) by extension 'cmake'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_8) by extension 'python'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_8) by extensions ['python_setup_py']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_8) by extension 'python_setup_py'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_9) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_9) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_9) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_9) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_9) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_9) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_9) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_9) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_9) by extension 'ros'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_9) by extensions ['cmake', 'python']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_9) by extension 'cmake'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_9) by extension 'python'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_9) by extensions ['python_setup_py']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(projects/week_9) by extension 'python_setup_py'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(reference_solutions) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(reference_solutions) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(reference_solutions) ignored
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(rj_training_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(rj_training_bringup) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(rj_training_bringup) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(rj_training_bringup) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(rj_training_bringup) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(rj_training_bringup) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(rj_training_bringup) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(rj_training_bringup) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(rj_training_bringup) by extension 'ros'
+[0.327s] DEBUG:colcon.colcon_core.package_identification:Package 'rj_training_bringup' with type 'ros.ament_cmake' and name 'rj_training_bringup'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(setup_instructons) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(setup_instructons) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(setup_instructons) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(setup_instructons) by extensions ['colcon_pkg']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(setup_instructons) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(setup_instructons) by extensions ['colcon_meta']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(setup_instructons) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(setup_instructons) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(setup_instructons) by extension 'ros'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(setup_instructons) by extensions ['cmake', 'python']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(setup_instructons) by extension 'cmake'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(setup_instructons) by extension 'python'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(setup_instructons) by extensions ['python_setup_py']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(setup_instructons) by extension 'python_setup_py'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(setup_instructons/pictures) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(setup_instructons/pictures) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(setup_instructons/pictures) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(setup_instructons/pictures) by extensions ['colcon_pkg']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(setup_instructons/pictures) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(setup_instructons/pictures) by extensions ['colcon_meta']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(setup_instructons/pictures) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(setup_instructons/pictures) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(setup_instructons/pictures) by extension 'ros'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(setup_instructons/pictures) by extensions ['cmake', 'python']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(setup_instructons/pictures) by extension 'cmake'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(setup_instructons/pictures) by extension 'python'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(setup_instructons/pictures) by extensions ['python_setup_py']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(setup_instructons/pictures) by extension 'python_setup_py'
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.354s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 23 installed packages in /home/david/training_ws/install
+[0.355s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 436 installed packages in /opt/ros/humble
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'astar_path_planner' build argument 'cmake_args' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'astar_path_planner' build argument 'cmake_target' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'astar_path_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'astar_path_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'astar_path_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'astar_path_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'astar_path_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'astar_path_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'astar_path_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.413s] DEBUG:colcon.colcon_core.verb:Building package 'astar_path_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/david/training_ws/src/robojackets-ros2/build/astar_path_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner', 'merge_install': False, 'path': '/home/david/training_ws/src/robojackets-ros2/astar_path_planner', 'symlink_install': False, 'test_result_base': None}
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'controllers' build argument 'cmake_args' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'controllers' build argument 'cmake_target' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.414s] DEBUG:colcon.colcon_core.verb:Building package 'controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/david/training_ws/src/robojackets-ros2/build/controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/david/training_ws/src/robojackets-ros2/install/controllers', 'merge_install': False, 'path': '/home/david/training_ws/src/robojackets-ros2/controllers', 'symlink_install': False, 'test_result_base': None}
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'coordinate_transform' build argument 'cmake_args' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'coordinate_transform' build argument 'cmake_target' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'coordinate_transform' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'coordinate_transform' build argument 'cmake_clean_cache' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'coordinate_transform' build argument 'cmake_clean_first' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'coordinate_transform' build argument 'cmake_force_configure' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'coordinate_transform' build argument 'ament_cmake_args' from command line to 'None'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'coordinate_transform' build argument 'catkin_cmake_args' from command line to 'None'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'coordinate_transform' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.415s] DEBUG:colcon.colcon_core.verb:Building package 'coordinate_transform' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/david/training_ws/src/robojackets-ros2/build/coordinate_transform', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform', 'merge_install': False, 'path': '/home/david/training_ws/src/robojackets-ros2/coordinate_transform', 'symlink_install': False, 'test_result_base': None}
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_args' from command line to 'None'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_target' from command line to 'None'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_clean_first' from command line to 'False'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_force_configure' from command line to 'False'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'ament_cmake_args' from command line to 'None'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.415s] DEBUG:colcon.colcon_core.verb:Building package 'localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/david/training_ws/src/robojackets-ros2/build/localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/david/training_ws/src/robojackets-ros2/install/localization', 'merge_install': False, 'path': '/home/david/training_ws/src/robojackets-ros2/localization', 'symlink_install': False, 'test_result_base': None}
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_target' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_clean_cache' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_clean_first' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_force_configure' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'ament_cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'catkin_cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.417s] DEBUG:colcon.colcon_core.verb:Building package 'mapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/david/training_ws/src/robojackets-ros2/build/mapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/david/training_ws/src/robojackets-ros2/install/mapping', 'merge_install': False, 'path': '/home/david/training_ws/src/robojackets-ros2/mapping', 'symlink_install': False, 'test_result_base': None}
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'mineral_deposit_tracking' build argument 'cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'mineral_deposit_tracking' build argument 'cmake_target' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'mineral_deposit_tracking' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'mineral_deposit_tracking' build argument 'cmake_clean_cache' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'mineral_deposit_tracking' build argument 'cmake_clean_first' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'mineral_deposit_tracking' build argument 'cmake_force_configure' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'mineral_deposit_tracking' build argument 'ament_cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'mineral_deposit_tracking' build argument 'catkin_cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'mineral_deposit_tracking' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.417s] DEBUG:colcon.colcon_core.verb:Building package 'mineral_deposit_tracking' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/david/training_ws/src/robojackets-ros2/build/mineral_deposit_tracking', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking', 'merge_install': False, 'path': '/home/david/training_ws/src/robojackets-ros2/mineral_deposit_tracking', 'symlink_install': False, 'test_result_base': None}
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detector' build argument 'cmake_args' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detector' build argument 'cmake_target' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detector' build argument 'cmake_clean_first' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detector' build argument 'cmake_force_configure' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detector' build argument 'ament_cmake_args' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.418s] DEBUG:colcon.colcon_core.verb:Building package 'obstacle_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/david/training_ws/src/robojackets-ros2/build/obstacle_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector', 'merge_install': False, 'path': '/home/david/training_ws/src/robojackets-ros2/obstacle_detector', 'symlink_install': False, 'test_result_base': None}
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'peak_finder' build argument 'cmake_args' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'peak_finder' build argument 'cmake_target' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'peak_finder' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'peak_finder' build argument 'cmake_clean_cache' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'peak_finder' build argument 'cmake_clean_first' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'peak_finder' build argument 'cmake_force_configure' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'peak_finder' build argument 'ament_cmake_args' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'peak_finder' build argument 'catkin_cmake_args' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'peak_finder' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.418s] DEBUG:colcon.colcon_core.verb:Building package 'peak_finder' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/david/training_ws/src/robojackets-ros2/build/peak_finder', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/david/training_ws/src/robojackets-ros2/install/peak_finder', 'merge_install': False, 'path': '/home/david/training_ws/src/robojackets-ros2/peak_finder', 'symlink_install': False, 'test_result_base': None}
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'rj_training_bringup' build argument 'cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'rj_training_bringup' build argument 'cmake_target' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'rj_training_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'rj_training_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'rj_training_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'rj_training_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'rj_training_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'rj_training_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'rj_training_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.419s] DEBUG:colcon.colcon_core.verb:Building package 'rj_training_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/david/training_ws/src/robojackets-ros2/build/rj_training_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup', 'merge_install': False, 'path': '/home/david/training_ws/src/robojackets-ros2/rj_training_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.419s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.420s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.421s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/david/training_ws/src/robojackets-ros2/astar_path_planner' with build type 'ament_cmake'
+[0.421s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/david/training_ws/src/robojackets-ros2/astar_path_planner'
+[0.423s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.424s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.424s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.431s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/david/training_ws/src/robojackets-ros2/controllers' with build type 'ament_cmake'
+[0.431s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/david/training_ws/src/robojackets-ros2/controllers'
+[0.432s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.432s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.439s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/david/training_ws/src/robojackets-ros2/coordinate_transform' with build type 'ament_cmake'
+[0.440s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/david/training_ws/src/robojackets-ros2/coordinate_transform'
+[0.440s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.441s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.445s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/david/training_ws/src/robojackets-ros2/localization' with build type 'ament_cmake'
+[0.445s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/david/training_ws/src/robojackets-ros2/localization'
+[0.445s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.445s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.449s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/david/training_ws/src/robojackets-ros2/mapping' with build type 'ament_cmake'
+[0.449s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/david/training_ws/src/robojackets-ros2/mapping'
+[0.450s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.450s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.458s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/david/training_ws/src/robojackets-ros2/mineral_deposit_tracking' with build type 'ament_cmake'
+[0.459s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/david/training_ws/src/robojackets-ros2/mineral_deposit_tracking'
+[0.459s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.460s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.469s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/david/training_ws/src/robojackets-ros2/obstacle_detector' with build type 'ament_cmake'
+[0.469s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/david/training_ws/src/robojackets-ros2/obstacle_detector'
+[0.470s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.470s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.476s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/david/training_ws/src/robojackets-ros2/peak_finder' with build type 'ament_cmake'
+[0.476s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/david/training_ws/src/robojackets-ros2/peak_finder'
+[0.476s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.476s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.484s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/david/training_ws/src/robojackets-ros2/rj_training_bringup' with build type 'ament_cmake'
+[0.484s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/david/training_ws/src/robojackets-ros2/rj_training_bringup'
+[0.484s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.485s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/astar_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/david/training_ws/src/robojackets-ros2/astar_path_planner -DCMAKE_INSTALL_PREFIX=/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner
+[0.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/david/training_ws/src/robojackets-ros2/controllers -DCMAKE_INSTALL_PREFIX=/home/david/training_ws/src/robojackets-ros2/install/controllers
+[0.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/coordinate_transform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/david/training_ws/src/robojackets-ros2/coordinate_transform -DCMAKE_INSTALL_PREFIX=/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform
+[0.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/training_ws/src/robojackets-ros2/build/localization -- -j16 -l16
+[0.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/david/training_ws/src/robojackets-ros2/mapping -DCMAKE_INSTALL_PREFIX=/home/david/training_ws/src/robojackets-ros2/install/mapping
+[0.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/mineral_deposit_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/david/training_ws/src/robojackets-ros2/mineral_deposit_tracking -DCMAKE_INSTALL_PREFIX=/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking
+[0.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/david/training_ws/src/robojackets-ros2/obstacle_detector -DCMAKE_INSTALL_PREFIX=/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector
+[0.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/peak_finder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/david/training_ws/src/robojackets-ros2/peak_finder -DCMAKE_INSTALL_PREFIX=/home/david/training_ws/src/robojackets-ros2/install/peak_finder
+[0.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/rj_training_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/david/training_ws/src/robojackets-ros2/rj_training_bringup -DCMAKE_INSTALL_PREFIX=/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup
+[0.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/training_ws/src/robojackets-ros2/build/localization -- -j16 -l16
+[0.616s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/training_ws/src/robojackets-ros2/build/localization
+[0.629s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(localization)
+[0.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/training_ws/src/robojackets-ros2/build/localization
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/localization' for CMake module files
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/localization' for CMake config files
+[0.632s] Level 1:colcon.colcon_core.shell:create_environment_hook('localization', 'cmake_prefix_path')
+[0.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/hook/cmake_prefix_path.ps1'
+[0.633s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/hook/cmake_prefix_path.dsv'
+[0.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/hook/cmake_prefix_path.sh'
+[0.634s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/localization/lib'
+[0.635s] Level 1:colcon.colcon_core.shell:create_environment_hook('localization', 'ld_library_path_lib')
+[0.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/hook/ld_library_path_lib.ps1'
+[0.635s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/hook/ld_library_path_lib.dsv'
+[0.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/hook/ld_library_path_lib.sh'
+[0.636s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/localization/bin'
+[0.636s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/localization/lib/pkgconfig/localization.pc'
+[0.637s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/localization/lib/python3.10/site-packages'
+[0.637s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/localization/bin'
+[0.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/package.ps1'
+[0.638s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/package.dsv'
+[0.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/package.sh'
+[0.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/package.bash'
+[0.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/package.zsh'
+[0.640s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/training_ws/src/robojackets-ros2/install/localization/share/colcon-core/packages/localization)
+[0.640s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(localization)
+[0.641s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/localization' for CMake module files
+[0.641s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/localization' for CMake config files
+[0.642s] Level 1:colcon.colcon_core.shell:create_environment_hook('localization', 'cmake_prefix_path')
+[0.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/hook/cmake_prefix_path.ps1'
+[0.643s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/hook/cmake_prefix_path.dsv'
+[0.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/hook/cmake_prefix_path.sh'
+[0.643s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/localization/lib'
+[0.643s] Level 1:colcon.colcon_core.shell:create_environment_hook('localization', 'ld_library_path_lib')
+[0.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/hook/ld_library_path_lib.ps1'
+[0.644s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/hook/ld_library_path_lib.dsv'
+[0.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/hook/ld_library_path_lib.sh'
+[0.644s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/localization/bin'
+[0.644s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/localization/lib/pkgconfig/localization.pc'
+[0.645s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/localization/lib/python3.10/site-packages'
+[0.645s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/localization/bin'
+[0.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/package.ps1'
+[0.646s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/package.dsv'
+[0.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/package.sh'
+[0.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/package.bash'
+[0.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/localization/share/localization/package.zsh'
+[0.649s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/training_ws/src/robojackets-ros2/install/localization/share/colcon-core/packages/localization)
+[1.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/rj_training_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/david/training_ws/src/robojackets-ros2/rj_training_bringup -DCMAKE_INSTALL_PREFIX=/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup
+[1.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/rj_training_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/training_ws/src/robojackets-ros2/build/rj_training_bringup -- -j16 -l16
+[1.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/rj_training_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/training_ws/src/robojackets-ros2/build/rj_training_bringup -- -j16 -l16
+[1.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/rj_training_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/training_ws/src/robojackets-ros2/build/rj_training_bringup
+[1.470s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rj_training_bringup)
+[1.471s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/rj_training_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/training_ws/src/robojackets-ros2/build/rj_training_bringup
+[1.471s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup' for CMake module files
+[1.472s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup' for CMake config files
+[1.472s] Level 1:colcon.colcon_core.shell:create_environment_hook('rj_training_bringup', 'cmake_prefix_path')
+[1.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup/share/rj_training_bringup/hook/cmake_prefix_path.ps1'
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup/share/rj_training_bringup/hook/cmake_prefix_path.dsv'
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup/share/rj_training_bringup/hook/cmake_prefix_path.sh'
+[1.473s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup/bin'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup/lib/pkgconfig/rj_training_bringup.pc'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup/lib/python3.10/site-packages'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup/bin'
+[1.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup/share/rj_training_bringup/package.ps1'
+[1.474s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup/share/rj_training_bringup/package.dsv'
+[1.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup/share/rj_training_bringup/package.sh'
+[1.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup/share/rj_training_bringup/package.bash'
+[1.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup/share/rj_training_bringup/package.zsh'
+[1.476s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup/share/colcon-core/packages/rj_training_bringup)
+[1.477s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rj_training_bringup)
+[1.477s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup' for CMake module files
+[1.477s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup' for CMake config files
+[1.477s] Level 1:colcon.colcon_core.shell:create_environment_hook('rj_training_bringup', 'cmake_prefix_path')
+[1.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup/share/rj_training_bringup/hook/cmake_prefix_path.ps1'
+[1.478s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup/share/rj_training_bringup/hook/cmake_prefix_path.dsv'
+[1.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup/share/rj_training_bringup/hook/cmake_prefix_path.sh'
+[1.478s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup/bin'
+[1.478s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup/lib/pkgconfig/rj_training_bringup.pc'
+[1.478s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup/lib/python3.10/site-packages'
+[1.479s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup/bin'
+[1.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup/share/rj_training_bringup/package.ps1'
+[1.479s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup/share/rj_training_bringup/package.dsv'
+[1.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup/share/rj_training_bringup/package.sh'
+[1.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup/share/rj_training_bringup/package.bash'
+[1.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup/share/rj_training_bringup/package.zsh'
+[1.481s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/training_ws/src/robojackets-ros2/install/rj_training_bringup/share/colcon-core/packages/rj_training_bringup)
+[2.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/mineral_deposit_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/david/training_ws/src/robojackets-ros2/mineral_deposit_tracking -DCMAKE_INSTALL_PREFIX=/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking
+[2.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/mineral_deposit_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/training_ws/src/robojackets-ros2/build/mineral_deposit_tracking -- -j16 -l16
+[2.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/david/training_ws/src/robojackets-ros2/mapping -DCMAKE_INSTALL_PREFIX=/home/david/training_ws/src/robojackets-ros2/install/mapping
+[2.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/training_ws/src/robojackets-ros2/build/mapping -- -j16 -l16
+[2.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/peak_finder' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/david/training_ws/src/robojackets-ros2/peak_finder -DCMAKE_INSTALL_PREFIX=/home/david/training_ws/src/robojackets-ros2/install/peak_finder
+[2.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/peak_finder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/training_ws/src/robojackets-ros2/build/peak_finder -- -j16 -l16
+[0.963s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/david/training_ws/src/robojackets-ros2/obstacle_detector -DCMAKE_INSTALL_PREFIX=/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector
+[0.964s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/training_ws/src/robojackets-ros2/build/obstacle_detector -- -j16 -l16
+[0.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/coordinate_transform' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/david/training_ws/src/robojackets-ros2/coordinate_transform -DCMAKE_INSTALL_PREFIX=/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform
+[0.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/coordinate_transform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/training_ws/src/robojackets-ros2/build/coordinate_transform -- -j16 -l16
+[1.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/astar_path_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/david/training_ws/src/robojackets-ros2/astar_path_planner -DCMAKE_INSTALL_PREFIX=/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner
+[1.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/astar_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/training_ws/src/robojackets-ros2/build/astar_path_planner -- -j16 -l16
+[1.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/david/training_ws/src/robojackets-ros2/controllers -DCMAKE_INSTALL_PREFIX=/home/david/training_ws/src/robojackets-ros2/install/controllers
+[1.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/training_ws/src/robojackets-ros2/build/controllers -- -j16 -l16
+[8.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/training_ws/src/robojackets-ros2/build/mapping -- -j16 -l16
+[8.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/training_ws/src/robojackets-ros2/build/mapping
+[8.801s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mapping)
+[8.803s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/mapping' for CMake module files
+[8.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/training_ws/src/robojackets-ros2/build/mapping
+[8.805s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/mapping' for CMake config files
+[8.806s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping', 'cmake_prefix_path')
+[8.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/mapping/share/mapping/hook/cmake_prefix_path.ps1'
+[8.809s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/mapping/share/mapping/hook/cmake_prefix_path.dsv'
+[8.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/mapping/share/mapping/hook/cmake_prefix_path.sh'
+[8.811s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/mapping/lib'
+[8.812s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping', 'ld_library_path_lib')
+[8.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/mapping/share/mapping/hook/ld_library_path_lib.ps1'
+[8.813s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/mapping/share/mapping/hook/ld_library_path_lib.dsv'
+[8.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/mapping/share/mapping/hook/ld_library_path_lib.sh'
+[8.815s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/mapping/bin'
+[8.815s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/mapping/lib/pkgconfig/mapping.pc'
+[8.816s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/mapping/lib/python3.10/site-packages'
+[8.816s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/mapping/bin'
+[8.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/mapping/share/mapping/package.ps1'
+[8.818s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/training_ws/src/robojackets-ros2/install/mapping/share/mapping/package.dsv'
+[8.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/mapping/share/mapping/package.sh'
+[8.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/mapping/share/mapping/package.bash'
+[8.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/mapping/share/mapping/package.zsh'
+[8.822s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/training_ws/src/robojackets-ros2/install/mapping/share/colcon-core/packages/mapping)
+[8.827s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mapping)
+[8.828s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/mapping' for CMake module files
+[8.829s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/mapping' for CMake config files
+[8.829s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping', 'cmake_prefix_path')
+[8.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/mapping/share/mapping/hook/cmake_prefix_path.ps1'
+[8.831s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/mapping/share/mapping/hook/cmake_prefix_path.dsv'
+[8.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/mapping/share/mapping/hook/cmake_prefix_path.sh'
+[8.833s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/mapping/lib'
+[8.834s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping', 'ld_library_path_lib')
+[8.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/mapping/share/mapping/hook/ld_library_path_lib.ps1'
+[8.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/mapping/share/mapping/hook/ld_library_path_lib.dsv'
+[8.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/mapping/share/mapping/hook/ld_library_path_lib.sh'
+[8.840s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/mapping/bin'
+[8.840s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/mapping/lib/pkgconfig/mapping.pc'
+[8.841s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/mapping/lib/python3.10/site-packages'
+[8.841s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/mapping/bin'
+[8.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/mapping/share/mapping/package.ps1'
+[8.844s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/training_ws/src/robojackets-ros2/install/mapping/share/mapping/package.dsv'
+[8.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/mapping/share/mapping/package.sh'
+[8.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/mapping/share/mapping/package.bash'
+[8.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/mapping/share/mapping/package.zsh'
+[8.853s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/training_ws/src/robojackets-ros2/install/mapping/share/colcon-core/packages/mapping)
+[14.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/peak_finder' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/training_ws/src/robojackets-ros2/build/peak_finder -- -j16 -l16
+[14.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/peak_finder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/training_ws/src/robojackets-ros2/build/peak_finder
+[14.390s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(peak_finder)
+[14.390s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/peak_finder' for CMake module files
+[14.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/peak_finder' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/training_ws/src/robojackets-ros2/build/peak_finder
+[14.398s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/peak_finder' for CMake config files
+[14.399s] Level 1:colcon.colcon_core.shell:create_environment_hook('peak_finder', 'cmake_prefix_path')
+[14.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/hook/cmake_prefix_path.ps1'
+[14.401s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/hook/cmake_prefix_path.dsv'
+[14.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/hook/cmake_prefix_path.sh'
+[14.404s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/peak_finder/lib'
+[14.404s] Level 1:colcon.colcon_core.shell:create_environment_hook('peak_finder', 'ld_library_path_lib')
+[14.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/hook/ld_library_path_lib.ps1'
+[14.407s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/hook/ld_library_path_lib.dsv'
+[14.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/hook/ld_library_path_lib.sh'
+[14.409s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/peak_finder/bin'
+[14.410s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/peak_finder/lib/pkgconfig/peak_finder.pc'
+[14.410s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/peak_finder/lib/python3.10/site-packages'
+[14.410s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/peak_finder/bin'
+[14.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/package.ps1'
+[14.412s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/package.dsv'
+[14.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/package.sh'
+[14.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/package.bash'
+[14.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/package.zsh'
+[14.417s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/colcon-core/packages/peak_finder)
+[14.420s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(peak_finder)
+[14.422s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/peak_finder' for CMake module files
+[14.424s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/peak_finder' for CMake config files
+[14.425s] Level 1:colcon.colcon_core.shell:create_environment_hook('peak_finder', 'cmake_prefix_path')
+[14.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/hook/cmake_prefix_path.ps1'
+[14.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/hook/cmake_prefix_path.dsv'
+[14.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/hook/cmake_prefix_path.sh'
+[14.431s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/peak_finder/lib'
+[14.431s] Level 1:colcon.colcon_core.shell:create_environment_hook('peak_finder', 'ld_library_path_lib')
+[14.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/hook/ld_library_path_lib.ps1'
+[14.432s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/hook/ld_library_path_lib.dsv'
+[14.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/hook/ld_library_path_lib.sh'
+[14.434s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/peak_finder/bin'
+[14.434s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/peak_finder/lib/pkgconfig/peak_finder.pc'
+[14.435s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/peak_finder/lib/python3.10/site-packages'
+[14.435s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/peak_finder/bin'
+[14.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/package.ps1'
+[14.438s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/package.dsv'
+[14.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/package.sh'
+[14.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/package.bash'
+[14.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/peak_finder/package.zsh'
+[14.444s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/training_ws/src/robojackets-ros2/install/peak_finder/share/colcon-core/packages/peak_finder)
+[19.110s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/astar_path_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/training_ws/src/robojackets-ros2/build/astar_path_planner -- -j16 -l16
+[19.113s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/astar_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/training_ws/src/robojackets-ros2/build/astar_path_planner
+[19.152s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astar_path_planner)
+[19.153s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner' for CMake module files
+[19.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/astar_path_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/training_ws/src/robojackets-ros2/build/astar_path_planner
+[19.156s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner' for CMake config files
+[19.157s] Level 1:colcon.colcon_core.shell:create_environment_hook('astar_path_planner', 'cmake_prefix_path')
+[19.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/hook/cmake_prefix_path.ps1'
+[19.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/hook/cmake_prefix_path.dsv'
+[19.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/hook/cmake_prefix_path.sh'
+[19.162s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/lib'
+[19.162s] Level 1:colcon.colcon_core.shell:create_environment_hook('astar_path_planner', 'ld_library_path_lib')
+[19.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/hook/ld_library_path_lib.ps1'
+[19.164s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/hook/ld_library_path_lib.dsv'
+[19.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/hook/ld_library_path_lib.sh'
+[19.166s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/bin'
+[19.166s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/lib/pkgconfig/astar_path_planner.pc'
+[19.167s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/lib/python3.10/site-packages'
+[19.167s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/bin'
+[19.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/package.ps1'
+[19.169s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/package.dsv'
+[19.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/package.sh'
+[19.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/package.bash'
+[19.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/package.zsh'
+[19.171s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/colcon-core/packages/astar_path_planner)
+[19.173s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astar_path_planner)
+[19.173s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner' for CMake module files
+[19.174s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner' for CMake config files
+[19.174s] Level 1:colcon.colcon_core.shell:create_environment_hook('astar_path_planner', 'cmake_prefix_path')
+[19.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/hook/cmake_prefix_path.ps1'
+[19.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/hook/cmake_prefix_path.dsv'
+[19.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/hook/cmake_prefix_path.sh'
+[19.179s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/lib'
+[19.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('astar_path_planner', 'ld_library_path_lib')
+[19.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/hook/ld_library_path_lib.ps1'
+[19.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/hook/ld_library_path_lib.dsv'
+[19.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/hook/ld_library_path_lib.sh'
+[19.183s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/bin'
+[19.184s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/lib/pkgconfig/astar_path_planner.pc'
+[19.185s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/lib/python3.10/site-packages'
+[19.185s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/bin'
+[19.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/package.ps1'
+[19.188s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/package.dsv'
+[19.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/package.sh'
+[19.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/package.bash'
+[19.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/astar_path_planner/package.zsh'
+[19.191s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/training_ws/src/robojackets-ros2/install/astar_path_planner/share/colcon-core/packages/astar_path_planner)
+[19.873s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/training_ws/src/robojackets-ros2/build/obstacle_detector -- -j16 -l16
+[19.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/training_ws/src/robojackets-ros2/build/obstacle_detector
+[19.913s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(obstacle_detector)
+[19.913s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector' for CMake module files
+[19.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/training_ws/src/robojackets-ros2/build/obstacle_detector
+[19.915s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector' for CMake config files
+[19.915s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_detector', 'cmake_prefix_path')
+[19.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/hook/cmake_prefix_path.ps1'
+[19.917s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/hook/cmake_prefix_path.dsv'
+[19.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/hook/cmake_prefix_path.sh'
+[19.918s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/lib'
+[19.918s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_detector', 'ld_library_path_lib')
+[19.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/hook/ld_library_path_lib.ps1'
+[19.919s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/hook/ld_library_path_lib.dsv'
+[19.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/hook/ld_library_path_lib.sh'
+[19.921s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/bin'
+[19.922s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/lib/pkgconfig/obstacle_detector.pc'
+[19.922s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/lib/python3.10/site-packages'
+[19.922s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/bin'
+[19.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/package.ps1'
+[19.923s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/package.dsv'
+[19.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/package.sh'
+[19.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/package.bash'
+[19.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/package.zsh'
+[19.926s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/colcon-core/packages/obstacle_detector)
+[19.927s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(obstacle_detector)
+[19.928s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector' for CMake module files
+[19.928s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector' for CMake config files
+[19.928s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_detector', 'cmake_prefix_path')
+[19.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/hook/cmake_prefix_path.ps1'
+[19.929s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/hook/cmake_prefix_path.dsv'
+[19.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/hook/cmake_prefix_path.sh'
+[19.931s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/lib'
+[19.931s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_detector', 'ld_library_path_lib')
+[19.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/hook/ld_library_path_lib.ps1'
+[19.933s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/hook/ld_library_path_lib.dsv'
+[19.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/hook/ld_library_path_lib.sh'
+[19.933s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/bin'
+[19.933s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/lib/pkgconfig/obstacle_detector.pc'
+[19.934s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/lib/python3.10/site-packages'
+[19.934s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/bin'
+[19.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/package.ps1'
+[19.935s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/package.dsv'
+[19.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/package.sh'
+[19.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/package.bash'
+[19.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/obstacle_detector/package.zsh'
+[19.937s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/training_ws/src/robojackets-ros2/install/obstacle_detector/share/colcon-core/packages/obstacle_detector)
+[22.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/training_ws/src/robojackets-ros2/build/controllers -- -j16 -l16
+[22.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/training_ws/src/robojackets-ros2/build/controllers
+[22.557s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controllers)
+[22.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/training_ws/src/robojackets-ros2/build/controllers
+[22.558s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/controllers' for CMake module files
+[22.559s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/controllers' for CMake config files
+[22.559s] Level 1:colcon.colcon_core.shell:create_environment_hook('controllers', 'cmake_prefix_path')
+[22.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/hook/cmake_prefix_path.ps1'
+[22.561s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/hook/cmake_prefix_path.dsv'
+[22.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/hook/cmake_prefix_path.sh'
+[22.562s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/controllers/lib'
+[22.562s] Level 1:colcon.colcon_core.shell:create_environment_hook('controllers', 'ld_library_path_lib')
+[22.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/hook/ld_library_path_lib.ps1'
+[22.563s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/hook/ld_library_path_lib.dsv'
+[22.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/hook/ld_library_path_lib.sh'
+[22.564s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/controllers/bin'
+[22.564s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/controllers/lib/pkgconfig/controllers.pc'
+[22.564s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/controllers/lib/python3.10/site-packages'
+[22.564s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/controllers/bin'
+[22.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/package.ps1'
+[22.565s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/package.dsv'
+[22.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/package.sh'
+[22.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/package.bash'
+[22.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/package.zsh'
+[22.567s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/training_ws/src/robojackets-ros2/install/controllers/share/colcon-core/packages/controllers)
+[22.568s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controllers)
+[22.568s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/controllers' for CMake module files
+[22.568s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/controllers' for CMake config files
+[22.569s] Level 1:colcon.colcon_core.shell:create_environment_hook('controllers', 'cmake_prefix_path')
+[22.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/hook/cmake_prefix_path.ps1'
+[22.570s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/hook/cmake_prefix_path.dsv'
+[22.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/hook/cmake_prefix_path.sh'
+[22.572s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/controllers/lib'
+[22.572s] Level 1:colcon.colcon_core.shell:create_environment_hook('controllers', 'ld_library_path_lib')
+[22.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/hook/ld_library_path_lib.ps1'
+[22.573s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/hook/ld_library_path_lib.dsv'
+[22.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/hook/ld_library_path_lib.sh'
+[22.573s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/controllers/bin'
+[22.573s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/controllers/lib/pkgconfig/controllers.pc'
+[22.574s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/controllers/lib/python3.10/site-packages'
+[22.574s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/controllers/bin'
+[22.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/package.ps1'
+[22.575s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/package.dsv'
+[22.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/package.sh'
+[22.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/package.bash'
+[22.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/controllers/share/controllers/package.zsh'
+[22.577s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/training_ws/src/robojackets-ros2/install/controllers/share/colcon-core/packages/controllers)
+[23.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/mineral_deposit_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/training_ws/src/robojackets-ros2/build/mineral_deposit_tracking -- -j16 -l16
+[23.398s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/mineral_deposit_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/training_ws/src/robojackets-ros2/build/mineral_deposit_tracking
+[23.427s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mineral_deposit_tracking)
+[23.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/mineral_deposit_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/training_ws/src/robojackets-ros2/build/mineral_deposit_tracking
+[23.427s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking' for CMake module files
+[23.428s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking' for CMake config files
+[23.428s] Level 1:colcon.colcon_core.shell:create_environment_hook('mineral_deposit_tracking', 'cmake_prefix_path')
+[23.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/hook/cmake_prefix_path.ps1'
+[23.429s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/hook/cmake_prefix_path.dsv'
+[23.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/hook/cmake_prefix_path.sh'
+[23.430s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/lib'
+[23.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('mineral_deposit_tracking', 'ld_library_path_lib')
+[23.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/hook/ld_library_path_lib.ps1'
+[23.431s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/hook/ld_library_path_lib.dsv'
+[23.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/hook/ld_library_path_lib.sh'
+[23.432s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/bin'
+[23.432s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/lib/pkgconfig/mineral_deposit_tracking.pc'
+[23.432s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/lib/python3.10/site-packages'
+[23.432s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/bin'
+[23.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.ps1'
+[23.433s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.dsv'
+[23.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.sh'
+[23.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.bash'
+[23.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.zsh'
+[23.435s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/colcon-core/packages/mineral_deposit_tracking)
+[23.436s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mineral_deposit_tracking)
+[23.436s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking' for CMake module files
+[23.436s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking' for CMake config files
+[23.436s] Level 1:colcon.colcon_core.shell:create_environment_hook('mineral_deposit_tracking', 'cmake_prefix_path')
+[23.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/hook/cmake_prefix_path.ps1'
+[23.437s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/hook/cmake_prefix_path.dsv'
+[23.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/hook/cmake_prefix_path.sh'
+[23.438s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/lib'
+[23.438s] Level 1:colcon.colcon_core.shell:create_environment_hook('mineral_deposit_tracking', 'ld_library_path_lib')
+[23.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/hook/ld_library_path_lib.ps1'
+[23.439s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/hook/ld_library_path_lib.dsv'
+[23.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/hook/ld_library_path_lib.sh'
+[23.441s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/bin'
+[23.441s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/lib/pkgconfig/mineral_deposit_tracking.pc'
+[23.441s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/lib/python3.10/site-packages'
+[23.442s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/bin'
+[23.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.ps1'
+[23.443s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.dsv'
+[23.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.sh'
+[23.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.bash'
+[23.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.zsh'
+[23.444s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/training_ws/src/robojackets-ros2/install/mineral_deposit_tracking/share/colcon-core/packages/mineral_deposit_tracking)
+[23.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/coordinate_transform' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/david/training_ws/src/robojackets-ros2/build/coordinate_transform -- -j16 -l16
+[23.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/training_ws/src/robojackets-ros2/build/coordinate_transform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/training_ws/src/robojackets-ros2/build/coordinate_transform
+[23.887s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(coordinate_transform)
+[23.888s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform' for CMake module files
+[23.888s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/training_ws/src/robojackets-ros2/build/coordinate_transform' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/david/training_ws/src/robojackets-ros2/build/coordinate_transform
+[23.889s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform' for CMake config files
+[23.890s] Level 1:colcon.colcon_core.shell:create_environment_hook('coordinate_transform', 'cmake_prefix_path')
+[23.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/share/coordinate_transform/hook/cmake_prefix_path.ps1'
+[23.891s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/share/coordinate_transform/hook/cmake_prefix_path.dsv'
+[23.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/share/coordinate_transform/hook/cmake_prefix_path.sh'
+[23.891s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/lib'
+[23.892s] Level 1:colcon.colcon_core.shell:create_environment_hook('coordinate_transform', 'ld_library_path_lib')
+[23.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/share/coordinate_transform/hook/ld_library_path_lib.ps1'
+[23.892s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/share/coordinate_transform/hook/ld_library_path_lib.dsv'
+[23.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/share/coordinate_transform/hook/ld_library_path_lib.sh'
+[23.893s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/bin'
+[23.893s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/lib/pkgconfig/coordinate_transform.pc'
+[23.893s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/lib/python3.10/site-packages'
+[23.893s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/bin'
+[23.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/share/coordinate_transform/package.ps1'
+[23.894s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/share/coordinate_transform/package.dsv'
+[23.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/share/coordinate_transform/package.sh'
+[23.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/share/coordinate_transform/package.bash'
+[23.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/share/coordinate_transform/package.zsh'
+[23.895s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/share/colcon-core/packages/coordinate_transform)
+[23.896s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(coordinate_transform)
+[23.896s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform' for CMake module files
+[23.896s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform' for CMake config files
+[23.896s] Level 1:colcon.colcon_core.shell:create_environment_hook('coordinate_transform', 'cmake_prefix_path')
+[23.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/share/coordinate_transform/hook/cmake_prefix_path.ps1'
+[23.897s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/share/coordinate_transform/hook/cmake_prefix_path.dsv'
+[23.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/share/coordinate_transform/hook/cmake_prefix_path.sh'
+[23.897s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/lib'
+[23.897s] Level 1:colcon.colcon_core.shell:create_environment_hook('coordinate_transform', 'ld_library_path_lib')
+[23.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/share/coordinate_transform/hook/ld_library_path_lib.ps1'
+[23.898s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/share/coordinate_transform/hook/ld_library_path_lib.dsv'
+[23.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/share/coordinate_transform/hook/ld_library_path_lib.sh'
+[23.899s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/bin'
+[23.899s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/lib/pkgconfig/coordinate_transform.pc'
+[23.899s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/lib/python3.10/site-packages'
+[23.900s] Level 1:colcon.colcon_core.environment:checking '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/bin'
+[23.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/share/coordinate_transform/package.ps1'
+[23.901s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/share/coordinate_transform/package.dsv'
+[23.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/share/coordinate_transform/package.sh'
+[23.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/share/coordinate_transform/package.bash'
+[23.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/share/coordinate_transform/package.zsh'
+[23.902s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/training_ws/src/robojackets-ros2/install/coordinate_transform/share/colcon-core/packages/coordinate_transform)
+[23.902s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[23.903s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[23.903s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[23.903s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[23.913s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[23.914s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[23.914s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[23.914s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[23.916s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[23.916s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[23.917s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/david/training_ws/src/robojackets-ros2/install/local_setup.ps1'
+[23.918s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/david/training_ws/src/robojackets-ros2/install/_local_setup_util_ps1.py'
+[23.919s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/david/training_ws/src/robojackets-ros2/install/setup.ps1'
+[23.921s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/david/training_ws/src/robojackets-ros2/install/local_setup.sh'
+[23.921s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/david/training_ws/src/robojackets-ros2/install/_local_setup_util_sh.py'
+[23.921s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/david/training_ws/src/robojackets-ros2/install/setup.sh'
+[23.923s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/david/training_ws/src/robojackets-ros2/install/local_setup.bash'
+[23.924s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/david/training_ws/src/robojackets-ros2/install/setup.bash'
+[23.926s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/david/training_ws/src/robojackets-ros2/install/local_setup.zsh'
+[23.927s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/david/training_ws/src/robojackets-ros2/install/setup.zsh'
