@@ -42,5 +42,5 @@ cv::Mat ReprojectToGroundPlane(
     }
   }
   return output;
-
+ 
 }
